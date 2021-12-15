@@ -2,11 +2,7 @@
     display: flex;
     position: relative;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
 }
-.background{
-    position: absolute;
-    width: 100vw;
-    z-index: 1;
-}
+
