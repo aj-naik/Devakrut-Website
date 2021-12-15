@@ -19,7 +19,7 @@
 }
 
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 30px;
   height: 15px;
   left: 34px;
@@ -74,7 +74,7 @@
   text-decoration-thickness: 1.5px;
 }
 .menu-background {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 45px;
   left: 0px;
