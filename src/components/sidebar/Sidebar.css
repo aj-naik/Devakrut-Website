@@ -6,8 +6,8 @@
   font-family: "Girassol", cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 17px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
   color: #212121;
   text-decoration: none;
   margin-bottom: 15px;
@@ -80,5 +80,5 @@
   left: 0px;
   top: 0px;
   background: #fffaea;
-  z-index: 10;
+  z-index: 1;
 }
