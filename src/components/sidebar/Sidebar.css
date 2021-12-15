@@ -1,76 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 
 .bm-item {
-    display: inline-block;
-    height: 17px;
-    font-family: 'Girassol', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.9rem;
-    line-height: 17px;
-    color: #212121;
-    text-decoration: none;
-    margin-bottom: 15px;
-    transition: colr 0.2s;
+  display: inline-block;
+  height: 17px;
+  font-family: "Girassol", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: #212121;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: colr 0.2s;
 }
 
 .bm-item:last-child {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .bm-burger-button {
-    position: fixed;
-    width: 30px;
-    height: 15px;
-    left: 34px;
-    top: 18px;
+  position: fixed;
+  width: 30px;
+  height: 15px;
+  left: 34px;
+  top: 18px;
 }
 
 .bm-cross-button {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .bm-cross {
-    background: #bdc3c7;
-    
+  background: #bdc3c7;
 }
 
 .bm-menu {
-    background: #fff;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+  background: #fff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
 }
 
 .bm-morph-shape {
-    fill: #fff;
+  fill: #fff;
 }
 
 .bm-item-list {
-    color: #b8b7ad;
+  color: #b8b7ad;
 }
 
 .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .menu-item-icon {
-    margin-top: 10px;
-    display: inline;
-    flex: 1;
+  margin-top: 10px;
+  display: inline;
+  flex: 1;
 }
 
 .menu-item-icon:first-child {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .contact-no {
-    color: #F4BC2B;
-    line-height: 17px;
+  color: #f4bc2b;
+  line-height: 17px;
 }
 
 .active {
-    text-decoration: underline;
-    text-decoration-color: #F7CE09;
-    text-decoration-thickness: 1.5px;
+  text-decoration: underline;
+  text-decoration-color: #f7ce09;
+  text-decoration-thickness: 1.5px;
+}
+.menu-background {
+  position: fixed;
+  width: 100vw;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  background: #fffaea;
+  z-index: 10;
 }

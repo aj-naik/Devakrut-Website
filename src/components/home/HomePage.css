@@ -1,8 +1,15 @@
-.main{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    width: 100vw;
-    z-index: 2;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.main-image {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100vw;
+  z-index: 1;
 }
-
+.process-section {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
+  margin-left: 23px;
+}
