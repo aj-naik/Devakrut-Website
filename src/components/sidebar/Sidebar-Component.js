@@ -2,7 +2,7 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import "./Sidebar.css";
 
-export default (props) => {
+const Sidebar = (props) => {
   return (
     // Pass on our props
     <Menu {...props} className="menu">
@@ -28,16 +28,18 @@ export default (props) => {
       <div className="menu-item">
         <div className="menu-item-icon">
           <a href="https://www.instagram.com/">
-            <img src="/img/sidebar/instagram.svg" />
+            <img src="/img/sidebar/instagram.svg" alt="instagram" />
           </a>
         </div>
 
         <div className="menu-item-icon">
           <a href="https://www.facebook.com/">
-            <img src="/img/sidebar/facebook.svg" />
+            <img src="/img/sidebar/facebook.svg" alt="facebook"/>
           </a>
         </div>
       </div>
     </Menu>
   );
 };
+
+export default Sidebar;
