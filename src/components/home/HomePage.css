@@ -7,9 +7,14 @@
   z-index: 1;
 }
 .process-section {
-  display: flex;
-  position: relative;
-  z-index: 2;
-  margin-top: -100px;
-  margin-left: 23px;
+    width: 100vw;
+}
+
+img.process{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
+    margin-left: 23px;
+    width: 100vw;
 }
