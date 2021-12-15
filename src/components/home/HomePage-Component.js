@@ -7,4 +7,5 @@ export default function HomePage() {
             <img src='/img/homepage/mainimg.svg' />
         </div>
     )
+    
 }
