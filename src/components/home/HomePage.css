@@ -1,6 +1,13 @@
 .main-image{
     display: flex;
+    position: relative;
     justify-content: center;
     width: 100%;
     padding-top: 5.875rem;
+    z-index: 2;
+}
+.background{
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
 }
