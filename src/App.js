@@ -12,7 +12,7 @@ function App() {
       "App"
     }
     customBurgerIcon = {
-      < img src = "img/menu/hamburger-menu.svg" / >
+      < img src = "img/menu/hamburger-menu.svg" alt ="menu"/>
     }
     width = {
       '50%'
