@@ -27,14 +27,14 @@ const Sidebar = (props) => {
 
       <div className="menu-item">
         <div className="menu-item-icon">
-          <a href="https://www.instagram.com/">
-            <img src="/img/sidebar/instagram.svg" alt="instagram" target="_blank"/>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="/img/sidebar/instagram.svg" alt="instagram" />
           </a>
         </div>
 
         <div className="menu-item-icon">
-          <a href="https://www.facebook.com/">
-            <img src="/img/sidebar/facebook.svg" alt="facebook" target="_blank"/>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="/img/sidebar/facebook.svg" alt="facebook"/>
           </a>
         </div>
       </div>
