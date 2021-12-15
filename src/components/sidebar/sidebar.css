@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+.bm-item {
+    display: inline-block;
+
+    /* Our sidebar item styling */
+    height: 17px;
+    font-family: 'Girassol', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 17px;
+    color: #212121;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: colr 0.2s;
+}
+
+.bm-item:last-child {
+    margin-top: 25px;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+/* .bm-burger-bars {
+    background: #673C13;
+} */
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #fff;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #fff;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item-icon {
+    margin-top: 10px;
+    display: inline;
+    flex: 1;
+}
+
+.menu-item-icon:first-child {
+    margin-right: 25px;
+}
+
+.contact-no {
+    color: #F4BC2B;
+    line-height: 17px;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #F7CE09;
+    text-decoration-thickness: 1.5px;
+}
