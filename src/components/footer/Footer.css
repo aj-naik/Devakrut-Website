@@ -1,0 +1,19 @@
+.footer {
+    background-color: #373737;
+    position: relative;
+    width: 100vw;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    height: 557px;
+   }
+
+   .content {
+    background-color: aqua;
+    padding-top: 39px;
+    padding-bottom: 68px;
+    /* padding-left: 173px;
+    padding-right: 527px; */
+    width: 100vw;
+   }
+

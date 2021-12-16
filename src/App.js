@@ -1,6 +1,7 @@
 import "./App.css";
 import SideBar from "./components/sidebar/Sidebar-Component";
 import HomePage from "./components/home/HomePage-Component";
+import Footer from "./components/footer/Footer-Component";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div id="page-wrap">
         <HomePage />
       </div>
+      <Footer />
     </>
   );
 }
