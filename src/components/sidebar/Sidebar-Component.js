@@ -1,28 +1,20 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import "./Sidebar.css";
-
+import { Link } from "react-router-dom";
 const Sidebar = (props) => {
   return (
     // Pass on our props
     <>
       <div className="menu-background"></div>
       <Menu {...props} className="menu">
-        <a className="menu-item active" href="#home">
-          Home
-        </a>
+        <Link to="/" className="menu-item active">Home</Link>
 
-        <a className="menu-item" href="#product">
-          Product
-        </a>
+        <Link to="/product" className="menu-item">Product</Link>
 
-        <a className="menu-item" href="#about">
-          About
-        </a>
+        <Link to="/about" className="menu-item">About</Link>
 
-        <a className="menu-item" href="#contact">
-          Contact
-        </a>
+        <Link to="/contact" className="menu-item">Contact</Link>
 
         <a className="contact-no" href="tel:9579611239">
           (+91) 9579611239
