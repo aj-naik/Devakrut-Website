@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './ContactPage.css';
 
 export default function ContactPage() {
     return (
         <div>
-           <h1> Hello this is the CONTACT PAGE MANAN  </h1>
+           
         </div>
     )
 }
