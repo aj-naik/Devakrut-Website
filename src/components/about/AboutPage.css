@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.about-page {
+    background: #FFFAEA;
+}
+.main-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 45px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #673C13;
+    text-align: center;
+}
+
+.text-container {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.yellow-circle {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    z-index: -1;
+}
+#circle-1{
+    left: -10%;
+}
+
+#circle-2{
+    left: 10%;
+    top: 100.4%;
+}
+
+
+/* #image-1{
+    position: absolute;
+width: 227px;
+height: 197px;
+left: 67px;
+top: 308px;
+}
+
+#image-2{
+position: absolute;
+width: 227px;
+height: 197px;
+left: 57px;
+top: 619px;
+
+} */
