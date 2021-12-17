@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="footer">
       <div className="content">
         <div className="title-logo">
-          <a href="https://devakrut.netlify.app/"><img className="logo" src="./img/footer/Devakrut_LOGO_1 1.svg"></img> </a>
+          <a href="https://devakrut.netlify.app/"><img className="logo" src="./img/footer/Devakrut_LOGO_1 1.svg" alt="logo"></img> </a>
         </div>
         <div className="footer-content">
           <span className="footer-details">
