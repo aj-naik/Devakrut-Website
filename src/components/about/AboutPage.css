@@ -17,7 +17,7 @@
     padding-bottom: 15px;
 }
 
-.text-container {
+.text-container-2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -25,8 +25,31 @@
     line-height: 16px;
     text-align: center;
     color: #000000;
-    padding-bottom: 20px;
+    padding-bottom: 29px;
 }
+
+.text-container-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.text-container-3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
 
 .yellow-circle {
     position: absolute;
@@ -61,9 +84,10 @@
     text-transform: uppercase;
     text-align: center;
     color: #1A1A18;
-    padding-top: 15px;
     padding-bottom: 20px;
 }
+
+
 
 
 /* #image-1{
