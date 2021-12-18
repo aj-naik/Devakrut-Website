@@ -101,7 +101,12 @@
 }
 
 .certification-img {
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 29px;
+
 }
 
 
