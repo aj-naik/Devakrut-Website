@@ -65,10 +65,10 @@ export default function AboutPage() {
         <div className="certification-text">Certified By</div>
 
         <div className="certification-img">
-          <img src="img/about/certified.svg" alt="img1"></img>
-          {/* <img src="img/about/certified-2.svg" alt="img2"></img>
-          <img src="img/about/certified-3.svg" alt="img3"></img>
-          <img src="img/about/certified-4.svg" alt="img4"></img> */}
+          <img src="img/about/certified-1.svg" alt="img1" id="img-1"></img>
+          <img src="img/about/certified-2.svg" alt="img2" id="img-2"></img>
+          <img src="img/about/certified-3.svg" alt="img3" id="img-3"></img>
+          <img src="img/about/certified-4.svg" alt="img4" id="img-4"></img>
         </div>
       </div>
     </div>
