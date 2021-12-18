@@ -19,7 +19,7 @@ export default function AboutPage() {
           className="image-container"
           id="image-1"
           src="img/about/banda1.svg"
-          alt = "main-img-1"
+          alt="main-img-1"
         />
 
         <div className="text-container-2" id="text-2">
@@ -30,7 +30,12 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <img className="yellow-circle" id="circle-2" src="img/about/2nd.svg" alt = "circle2" />
+      <img
+        className="yellow-circle"
+        id="circle-2"
+        src="img/about/2nd.svg"
+        alt="circle2"
+      />
 
       <div className="box">
         <img
@@ -38,7 +43,6 @@ export default function AboutPage() {
           id="image-2"
           src="img/about/banda2.svg"
           alt="circle-1"
-          alt = "main-img-2"
         />
 
         <div className="text-container-3" id="text-3">
