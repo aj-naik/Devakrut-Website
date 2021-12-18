@@ -87,7 +87,22 @@
     padding-bottom: 20px;
 }
 
+.certification-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1A1A18;
+    text-transform: uppercase;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
 
+.certification-img {
+    display: inline-block;
+}
 
 
 /* #image-1{

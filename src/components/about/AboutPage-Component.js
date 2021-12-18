@@ -67,7 +67,14 @@ export default function AboutPage() {
       <div className="certification">
         <div className="certification-text">Certified By</div>
 
+        <div className="certification-img">
+          <image src = "img/about/certified-1.svg"></image>
+          <image src = "img/about/certified-2.svg"></image>
+          <image src = "img/about/certified-3.svg"></image>
+          <image src = "img/about/certified-4.svg"></image>
+        </div>
       </div>
+      
     </div>
   );
 }
