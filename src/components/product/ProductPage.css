@@ -69,15 +69,19 @@
     padding-top: 13px;
     vertical-align: top;
     text-align: center;
-    width: 120px;
+    width: 90vw;
     display: flex;
 }
 
+.process-image {
+    padding-left: 15px;
+}
+
 .p-img{
-    padding-left: 36px;
+    /* padding-left: 36px; */
     width: 27.89px;
     height: 37.07px; 
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .image-text{
@@ -89,7 +93,7 @@
     line-height: 13px;
     text-align: center;
     color: #000000;
-    padding-left: 35px;
+    /* padding-left: 35px; */
     padding-bottom: 38px;
 
 }
