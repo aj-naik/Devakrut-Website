@@ -39,26 +39,25 @@
   text-align: left;
   text-decoration: none;
   padding-bottom: 5%;
-  
 }
 
 a {
-display: flex;
+  display: flex;
   text-decoration: none;
   color: #ffffff;
   align-items: center;
 }
 
 .icon {
-min-width: 20px;
-padding: 10px;
+  min-width: 20px;
+  padding: 10px;
 }
 
 .details-text {
-    display: inline-flex;
+  display: inline-flex;
 }
 
-.follow-us{
+.follow-us {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 700;
@@ -79,4 +78,3 @@ padding: 10px;
   display: inline-block;
   padding-bottom: 5px;
 }
-

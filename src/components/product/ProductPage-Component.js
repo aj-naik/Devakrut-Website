@@ -43,20 +43,38 @@ export default function ProductPage() {
           <div className="process-title">Process</div>
           <div className="process-details">
             <div className="process-image">
-              <img className="p-img" src="/img/product/tree.svg" alt="tree-img"></img>
+              <img
+                className="p-img"
+                src="/img/product/tree.svg"
+                alt="tree-img"
+              ></img>
               <span className="image-text">Sourced Direct from farm</span>
             </div>
             <div className="process-image">
-              <img className="p-img" src="/img/product/machine.svg" alt="machine-img"></img>
+              <img
+                className="p-img"
+                src="/img/product/machine.svg"
+                alt="machine-img"
+              ></img>
               <span className="image-text">Cold Pressed Extraction</span>
             </div>
             <div className="process-image">
-              <img className="p-img" src="/img/product/filter.svg" alt="filter-img"></img>
+              <img
+                className="p-img"
+                src="/img/product/filter.svg"
+                alt="filter-img"
+              ></img>
               <span className="image-text">Filtered Naturally</span>
             </div>
             <div className="process-image">
-              <img className="p-img" src="/img/product/bottle.svg" alt="bottle-img"></img>
-              <span className="image-text">Chemical and preservative free Bottling</span>
+              <img
+                className="p-img"
+                src="/img/product/bottle.svg"
+                alt="bottle-img"
+              ></img>
+              <span className="image-text">
+                Chemical and preservative free Bottling
+              </span>
             </div>
           </div>
         </div>

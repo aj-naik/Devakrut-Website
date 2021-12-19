@@ -1,118 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 .about-page {
-    background: #FFFAEA;
+  background: #fffaea;
 }
 .main-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    text-decoration-line: underline;
-    padding-top: 45px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #673C13;
-    text-align: center;
-    padding-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-decoration-line: underline;
+  padding-top: 45px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #673c13;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .text-container-1 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 30px;
-    padding-left: 27px;
-    padding-right: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 27px;
+  padding-right: 26px;
 }
 
 .text-container-2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 29px;
-    padding-left: 39px;
-    padding-right: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 29px;
+  padding-left: 39px;
+  padding-right: 39px;
 }
 
 .text-container-3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 30px;
-    padding-left: 39px;
-    padding-right: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 39px;
+  padding-right: 39px;
 }
 
-
 .yellow-circle {
-    position: absolute;
-    width: 256px;
-    height: 256px;
-    z-index: -1;
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  z-index: -1;
 }
 
 .image-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 15px;
 }
 
-#circle-1{
-    left: -10%;
+#circle-1 {
+  left: -10%;
 }
 
-#circle-2{
-    left: 10%;
-    top: 100.4%;
+#circle-2 {
+  left: 10%;
+  top: 100.4%;
 }
 
 .testimonial-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #1A1A18;
-    padding-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1a1a18;
+  padding-bottom: 20px;
 }
 
 .certification-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #1A1A18;
-    text-transform: uppercase;
-    padding-top: 34px;
-    padding-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #1a1a18;
+  text-transform: uppercase;
+  padding-top: 34px;
+  padding-bottom: 10px;
 }
 
 .certification-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-bottom: 29px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 29px;
 }
 
 /* #img-1 {
@@ -120,17 +118,16 @@
 }*/
 
 #img-2 {
-    padding-bottom: 10px;
-} 
+  padding-bottom: 10px;
+}
 
 /* #img-3 {
     padding-top: 5px;
 } */
 
 #img-4 {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-
 
 /* #image-1{
     position: absolute;

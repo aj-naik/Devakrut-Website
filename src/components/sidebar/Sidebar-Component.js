@@ -7,16 +7,26 @@ const Sidebar = (props) => {
     // Pass on our props
     <>
       <div className="menu-background">
-          <a href="https://devakrut.netlify.app/"><img className="logo" src="./img/main_logo.svg" alt="logo"></img> </a>
-        </div>
+        <a href="https://devakrut.netlify.app/">
+          <img className="logo" src="./img/main_logo.svg" alt="logo"></img>{" "}
+        </a>
+      </div>
       <Menu {...props} className="menu">
-        <Link to="/" className="menu-item active">Home</Link>
+        <Link to="/" className="menu-item active">
+          Home
+        </Link>
 
-        <Link to="/about" className="menu-item">About</Link>
+        <Link to="/about" className="menu-item">
+          About
+        </Link>
 
-        <Link to="/product" className="menu-item">Product</Link>
+        <Link to="/product" className="menu-item">
+          Product
+        </Link>
 
-        <Link to="/contact" className="menu-item">Contact</Link>
+        <Link to="/contact" className="menu-item">
+          Contact
+        </Link>
 
         <a className="contact-no" href="tel:9579611239">
           (+91) 9579611239

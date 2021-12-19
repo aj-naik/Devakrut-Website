@@ -24,19 +24,19 @@ export default function HomePage() {
           2
         </span>
         <span className="process-text" id="process-text-2">
-        Cold Pressed Extraction
+          Cold Pressed Extraction
         </span>
         <span className="process-number" id="process-3">
           3
         </span>
         <span className="process-text" id="process-text-3">
-        Filtered Naturally
+          Filtered Naturally
         </span>
         <span className="process-number" id="process-4">
           4
         </span>
         <span className="process-text" id="process-text-4">
-        Chemical and preservative free botling
+          Chemical and preservative free botling
         </span>
         <img
           className="process"

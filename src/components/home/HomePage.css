@@ -39,7 +39,7 @@
 .process-subtitle {
   position: relative;
   z-index: 2;
-  margin-top: -22.0%;
+  margin-top: -22%;
   margin-left: 1.938rem;
 
   font-family: Source Sans Pro;
@@ -76,7 +76,7 @@
   font-size: 12px;
   line-height: 14px;
   text-align: center;
-  color: #673C13;
+  color: #673c13;
 }
 
 #process-1 {
@@ -114,12 +114,11 @@
   margin-top: 12.345%;
 }
 #process-text-4 {
-    width: 93px;
-    margin-left: 64.166%;
-    margin-top: 0.46%;
-    z-index: 4;
-  }
-
+  width: 93px;
+  margin-left: 64.166%;
+  margin-top: 0.46%;
+  z-index: 4;
+}
 
 img.process {
   display: flex;
