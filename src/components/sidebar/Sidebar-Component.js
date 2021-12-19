@@ -12,9 +12,9 @@ const Sidebar = (props) => {
       <Menu {...props} className="menu">
         <Link to="/" className="menu-item active">Home</Link>
 
-        <Link to="/product" className="menu-item">Product</Link>
-
         <Link to="/about" className="menu-item">About</Link>
+
+        <Link to="/product" className="menu-item">Product</Link>
 
         <Link to="/contact" className="menu-item">Contact</Link>
 
