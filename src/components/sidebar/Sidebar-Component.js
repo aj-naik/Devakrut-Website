@@ -7,9 +7,7 @@ const Sidebar = (props) => {
     // Pass on our props
     <>
       <div className="menu-background">
-        <a href="https://devakrut.netlify.app/" className="logo-link">
           <img className="logo" src="./img/main_logo.svg" alt="logo"></img>{" "}
-        </a>
       </div>
       <Menu {...props} className="menu">
         <Link to="/" className="menu-item active">
