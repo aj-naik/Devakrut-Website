@@ -9,10 +9,13 @@ export default function CarouselComponent() {
       showThumbs={false}
       autoPlay
       centerMode={true}
-      centerSlidePercentage={45}
+      centerSlidePercentage={50}
       showIndicators={false}
       showStatus={false}
       infiniteLoop={true}
+      interval={7000}
+      swipeScrollTolerance = {1}
+      preventMovementUntilSwipeScrollTolerance={true}
     >
       <div className="carousel-card">
         <img
