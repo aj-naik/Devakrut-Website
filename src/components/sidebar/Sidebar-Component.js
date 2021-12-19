@@ -1,5 +1,5 @@
 import React from "react";
-import { slide as Menu } from "react-burger-menu";
+import { bubble as Menu } from "react-burger-menu";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
 const Sidebar = (props) => {
