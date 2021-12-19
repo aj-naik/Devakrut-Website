@@ -12,7 +12,7 @@ export default function HomePage() {
         />
       </div>
       <div className="process-section">
-        <span className="process-heading">Process</span>
+        {/* <span className="process-heading">Process</span>
         <span className="process-subtitle">From Farm to your Doorsteps</span>
         <span className="process-number" id="process-1">
           1
@@ -37,11 +37,11 @@ export default function HomePage() {
         </span>
         <span className="process-text" id="process-text-4">
           Chemical and preservative free botling
-        </span>
+        </span> */}
         <img
           className="process"
           src="/img/homepage/process.svg"
-          alt="process"
+          alt="process-image"
         />
       </div>
       <div className="benefits-section">

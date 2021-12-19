@@ -5,7 +5,7 @@
 }
 
 .product-page {
-  padding-top: 8.88%;
+  padding-top: 10%;
 }
 
 .title {
@@ -17,10 +17,12 @@
   font-size: 16px;
   line-height: 19px;
   color: #f4bc2b;
+  text-transform: uppercase;
+  padding-bottom: 6px;
 }
 
 .product-content {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-left: 15px;
   font-family: Roboto;
   font-style: normal;
@@ -37,6 +39,7 @@
   border: 0;
   float: right;
 }
+
 .carousel .slide {
   text-align: left;
 }
