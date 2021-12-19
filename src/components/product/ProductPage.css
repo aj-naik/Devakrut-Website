@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+.product-page {
+    background: #FFFAEA;
+    padding-top: 10%;
+}
+
+.title {
+    padding-top: 32px;
+    padding-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F4BC2B;
+}
+
+.product-content {
+    padding-top: 20px;
+    padding-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.benefits-title {
+    padding-top: 40px;
+    padding-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F4BC2B;
+}
+
+.benefits-details {
+    padding-top: 10px;
+}
+
+.detail-points {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
