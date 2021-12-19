@@ -7,9 +7,6 @@ export default function ProductPage() {
   return (
     // <Carousel
     //   showThumbs={false}
-    //   autoPlay
-    //   centerMode={true}
-    //   centerSlidePercentage={45}
     //   showIndicators={false}
     //   showStatus={false}
     //   infiniteLoop={true}
