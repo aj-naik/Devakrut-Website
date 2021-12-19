@@ -18,13 +18,20 @@
 
 .product-content {
   padding-top: 20px;
-  padding-left: 16px;
+  padding-left: 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
   color: #000000;
+  /* margin-left: 7px; */
+}
+
+.product-main-img img {
+    float: right;
+    z-index: -1;
+    margin-left: 7px;
 }
 
 .benefits-title {

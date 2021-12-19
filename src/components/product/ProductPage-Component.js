@@ -14,6 +14,9 @@ export default function ProductPage() {
     <div className="product-page">
       <div className="product-content">
         <div className="title">Wood Pressed Coconut Oil</div>
+        <div className="product-main-img">
+          <img src="img/product/coconut.svg" alt="coconut"></img>
+        </div>
         <div className="product-content">
           <p>
             {" "}
@@ -23,6 +26,7 @@ export default function ProductPage() {
             tincidunt.t a ellentesque ut urna proin adipiscing ut.
           </p>
         </div>
+
         <div className="benefits">
           <div className="benefits-title">Benefits</div>
           <div className="benefits-details">
@@ -39,6 +43,7 @@ export default function ProductPage() {
             </ul>
           </div>
         </div>
+
         <div className="process">
           <div className="process-title">Process</div>
           <div className="process-details">
@@ -78,6 +83,7 @@ export default function ProductPage() {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
     // </Carousel>
