@@ -87,3 +87,7 @@
   height: 35px;
   padding: 5px;
 }
+
+.logo-link {
+  z-index: 999;
+}

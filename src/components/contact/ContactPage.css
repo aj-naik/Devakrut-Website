@@ -1,0 +1,126 @@
+.main-contact-page {
+  position: relative;
+  background: #FFFAEA;
+  font-size: 25px;
+  padding: 15% 7.77%;
+ 
+}
+
+.contact-box {
+  position: relative;
+  background: #ffffff;
+  border-radius: 15px;
+  /* margin: 25% 7.77%; */
+  padding-bottom: 22px;
+  z-index: 15;
+}
+
+.box-title {
+  padding-top: 31px;
+  padding-left: 70px;
+  padding-right: 62px;
+  padding-bottom: 7px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.ellipse-container{
+  position: absolute;
+  z-index: 11;
+  float: left;
+  margin-left: -7.77%;
+  margin-top: -15%;
+}
+
+.box-subtitle {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fbbc04;
+  text-align: center;
+  padding-bottom: 19px;
+}
+
+.form{
+  padding-left: 49px;
+  padding-right: 49px;
+}
+
+.form-component {
+  display: block;
+}
+
+.label-name{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.data {
+  padding-bottom: 12px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=textarea], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  border: 1px dashed #B7B7B7;
+  /* box-sizing: border-box; */
+  border-radius: 10px;
+  margin-top: 10px;
+  resize: none;
+  width: 89%;
+  height: 77px;
+  padding: 2% 5%;
+}
+
+.submit-button { 
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+  border: none;
+  text-align: center;
+  background-color: #F4BC2B;
+  color: #ffffff;
+  border-radius: 27px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  height: 30px;
+  width: 108px;
+}

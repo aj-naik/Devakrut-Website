@@ -41,7 +41,7 @@ export default function HomePage() {
         <img
           className="process"
           src="/img/homepage/process.svg"
-          alt="process-image"
+          alt="process"
         />
       </div>
       <div className="benefits-section">
