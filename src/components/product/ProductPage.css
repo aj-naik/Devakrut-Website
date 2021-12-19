@@ -43,10 +43,51 @@
 }
 
 .detail-points {
-    display: inline-block;
+    /* display: block; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
 }
+
+.process {
+    padding-top: 20px;
+}
+
+.process-title {
+    padding-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F4BC2B;
+}
+
+.process-details {
+    padding-top: 13px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.p-img{
+    padding-left: 8.89%;
+    width: 27.89px;
+    height: 37.07px; 
+}
+
+.image-text{
+    display: block;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+
+}
+
