@@ -1,0 +1,97 @@
+.para-text {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  display: none;
+  margin-bottom: 45px;
+}
+
+.footer-details {
+    font-size: 12px;
+}
+
+.quick-link-title{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom:2%;
+    display: none;
+  }
+  
+  .page-links{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top:2%;
+    display: none;
+  }
+
+
+@media screen and (min-width: 768px) {
+    .footer-details {
+        font-size: 18px;
+    }
+    .para-text {
+        display: flex;
+    }
+    .logo {
+        height: 160px;
+        width: 374px !important;
+        margin-left: -39px !important;
+        padding: 0 !important;
+        margin-top: -39px;
+    }
+
+    .quick-link-title {
+        display: flex;
+        margin-bottom: 25px;
+    }
+    
+    .page-links {
+        display: flex;
+        padding-bottom: 16px;
+    }
+
+    .footer-details {
+        padding-bottom: 22px !important;
+
+    }
+    .left-content {
+        width: 70%;
+        float: left;
+        height: 100%;
+    }
+    .quick-links {
+        float: right;
+        width: 17%;
+        padding: 1.5%;
+        margin-top: 19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .follow-us{
+      margin-top:55px;
+    }
+    .social-media {
+        position: absolute;
+        margin-right: auto;
+        margin-left: 65%;
+        margin-top: 266px;
+    }
+    .smicon {
+        padding:  20% 10% !important;
+    }
+    .footer {
+        box-sizing: border-box;
+        height: 557px !important;
+    }
+    
+
+}

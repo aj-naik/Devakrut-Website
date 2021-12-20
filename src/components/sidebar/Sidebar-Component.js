@@ -7,7 +7,7 @@ const Sidebar = (props) => {
     // Pass on our props
     <>
       <div className="menu-background">
-          <img className="logo" src="./img/main_logo.svg" alt="logo"></img>{" "}
+          <img className="logo-header" src="./img/main_logo.svg" alt="logo"></img>{" "}
       </div>
       <Menu {...props} className="menu">
         <Link to="/" className="menu-item active">

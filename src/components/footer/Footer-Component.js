@@ -5,6 +5,7 @@ const Footer = () => (
   <>
     <div className="footer">
       <div className="content">
+        <div className="left-content">
         <div className="title-logo">
           <a href="https://devakrut.netlify.app/">
             <img
@@ -13,6 +14,13 @@ const Footer = () => (
               alt="logo"
             ></img>{" "}
           </a>
+        </div>
+        <div className="footer-description">
+          <p className="para-text">
+            We are manufacturer of Cold press oil. You will get 100% pure Cold
+            pressed Groundnut Oil, Coconut Oil, Sesame Oil (Teel) , Safflower
+            Oil (Kardai) , Almond Oil.
+          </p>
         </div>
         <div className="footer-content">
           <span className="footer-details">
@@ -42,6 +50,16 @@ const Footer = () => (
               <div className="details-text">9579611239</div>
             </a>
           </span>
+        </div>
+        </div>
+        <div className="quick-links">
+          <div className="quick-link-title">Quick Links</div>
+          <div className="footer-navbar">
+            <a className="page-links" href="https://devakrut.netlify.app/">Home</a>
+            <a className="page-links" href="https://devakrut.netlify.app/">Products</a>
+            <a className="page-links" href="https://devakrut.netlify.app/">About Us</a>
+            <a className="page-links" href="https://devakrut.netlify.app/">Contact Us</a>
+          </div>
         </div>
         <div className="social-media">
           <span className="follow-us">Follow Us</span>
