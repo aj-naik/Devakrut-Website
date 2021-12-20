@@ -73,12 +73,12 @@
 
 input[type=text], select {
   width: 100%;
-  padding: 12px 20px;
+  padding-bottom: 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #B7B7B7;
 }
 
 input[type=textarea], select {
@@ -104,7 +104,7 @@ textarea {
   resize: none;
   width: 89%;
   height: 77px;
-  padding: 2% 5%;
+  padding: 3% 6.5%;
 }
 
 .submit-button { 
