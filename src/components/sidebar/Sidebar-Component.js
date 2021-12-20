@@ -27,7 +27,7 @@ const Sidebar = (props) => {
         </Link>
 
         <a className="contact-no" href="tel:9579611239">
-          (+91) 9579611239
+          9579611239
         </a>
 
         <div className="menu-item">
