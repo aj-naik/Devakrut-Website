@@ -69,9 +69,6 @@
 
 .data {
   padding-bottom: 12px;
-}
-
-input[type=text], select {
   width: 100%;
   padding-bottom: 12px;
   margin: 8px 0;
@@ -81,7 +78,8 @@ input[type=text], select {
   border-bottom: 1px solid #B7B7B7;
 }
 
-input[type=textarea], select {
+.data-2 {
+  padding-bottom: 12px;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -89,14 +87,14 @@ input[type=textarea], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+.submit-button {
   width: 100%;
   color: white;
   border: none;
   cursor: pointer;
 }
 
-textarea {
+.data-2 {
   border: 1px dashed #B7B7B7;
   /* box-sizing: border-box; */
   border-radius: 10px;

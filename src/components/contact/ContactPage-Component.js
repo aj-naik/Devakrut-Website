@@ -33,7 +33,7 @@ export default function ContactPage() {
             </div>
             <div className="form-component">
                 <label htmlFor="Message" className="label-name" id="text-area">Message</label>
-                <textarea type = "text" className="data"></textarea>
+                <textarea type = "text" className="data-2"></textarea>
             </div>
             <button type="submit" className="submit-button">Submit</button>
         </div>
