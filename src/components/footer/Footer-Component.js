@@ -26,7 +26,7 @@ const Footer = () => (
           <span className="footer-details">
             <a className="details" href="https://goo.gl/maps/rNA2nxyHudL4E9rF7">
               <img src="/img/footer/pin.svg" alt="Map" className="icon"></img>
-              Shop no 4 , Sagar Sanidhya Court Road, Alibaug-Akshi Ferry,
+              Shop No 4, Sagar Sanidhya Court Road, Alibaug-Akshi Ferry,
               Alibag, Maharashtra 402201
             </a>
           </span>

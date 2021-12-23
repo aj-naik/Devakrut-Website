@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
+import "./AboutPage-Desktop.css";
 import CarouselComponent from "../carousel/Carousel-Component";
 
 export default function AboutPage() {
@@ -12,30 +13,35 @@ export default function AboutPage() {
         src="img/about/1st.svg"
         alt="circle-1"
       />
+      <img
+        className="yellow-circle"
+        id="circle-1-desk"
+        src="img/about/circle1-desk.svg"
+        alt="circle-1"
+      />
 
-      <div className="text-container-1" id="text-1">
+      <div className="text-container" id="text-1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
         quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
         viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
         Eget a pellentesque ut urna proin adipiscing ut.
       </div>
-      
 
-      <div className="box">
+      <div className="box" id="box1">
         <img
           className="image-container"
           id="image-1"
           src="img/about/banda1.svg"
           alt="main-img-1"
         />
-        
-        
-        <div className="text-container-2" id="text-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-          quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
-          viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
-          Eget a pellentesque ut urna proin adipiscing ut.
-        </div>
+      
+
+      <div className="text-container" id="text-2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
+        quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
+        viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
+        Eget a pellentesque ut urna proin adipiscing ut.
+      </div>
       </div>
 
       <img
@@ -44,26 +50,28 @@ export default function AboutPage() {
         src="img/about/2nd.svg"
         alt="circle2"
       />
+      <img
+        className="yellow-circle"
+        id="circle-2-desk"
+        src="img/about/circle2-desk.svg"
+        alt="circle2"
+      />
 
-      <div className="box">
+      <div className="box" id="box2">
         <img
           className="image-container"
           id="image-2"
           src="img/about/banda2.svg"
           alt="main-img-2"
         />
-        
-      
-        <div className="text-container-3" id="text-3">
+
+        <div className="text-container" id="text-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
           quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
           viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
           Eget a pellentesque ut urna proin adipiscing ut.
         </div>
       </div>
-
-      
-      
 
       <div className="testimonial">
         <div className="testimonial-text">Testimonials</div>

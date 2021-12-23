@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 .about-page {
   background: #fffaea;
@@ -15,9 +16,10 @@
   color: #673c13;
   text-align: center;
   padding-bottom: 15px;
+  text-shadow: 3px -3px 1px#F4BC2B;
 }
 
-.text-container-1 {
+.text-container{
   position:relative;
   font-family: Roboto;
   font-style: normal;
@@ -26,40 +28,20 @@
   line-height: 16px;
   text-align: center;
   color: #000000;
-  padding-bottom: 30px;
-  padding-left: 27px;
-  padding-right: 26px;
   z-index: 1;
+  padding-left: 8.47vw;
+  padding-right: 8.47vw;
+  
 }
-
-.text-container-2 {
-  position: relative;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #000000;
+#text-1{
+  padding-bottom: 30px;
+}
+#text-2{
   padding-bottom: 29px;
-  padding-left: 39px;
-  padding-right: 39px;
-  z-index: 1;
 }
 
-.text-container-3 {
-  position: relative;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #000000;
+#text-3{
   padding-bottom: 30px;
-  padding-left: 39px;
-  padding-right: 39px;
-  z-index: 1;
 }
 
 .yellow-circle {
@@ -83,6 +65,9 @@
   z-index: 0;
   margin-top: 5%;
 }
+#circle-1-desk{
+  display: none;
+}
 
 #circle-2 {
   position: absolute;
@@ -91,6 +76,9 @@
   margin-top: 9%;
   overflow: hidden;
 } 
+#circle-2-desk{
+  display: none;
+}
 
 .testimonial-text {
   font-family: Roboto;
@@ -161,3 +149,5 @@ left: 57px;
 top: 619px;
 
 } */
+
+

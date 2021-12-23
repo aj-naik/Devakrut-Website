@@ -2,11 +2,10 @@
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 18px;
   color: #ffffff;
   display: none;
-  margin-bottom: 45px;
 }
 
 .footer-details {
@@ -17,8 +16,8 @@
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 20px;
     margin-bottom:2%;
     display: none;
   }
@@ -27,40 +26,38 @@
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    margin-top:2%;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 2%;
     display: none;
   }
 
-
 @media screen and (min-width: 768px) {
     .footer-details {
-        font-size: 18px;
+        font-size: 16px;
     }
     .para-text {
         display: flex;
     }
     .logo {
-        height: 160px;
-        width: 374px !important;
-        margin-left: -39px !important;
+        height: 100px;
+        width: 234px !important;
+        margin-left: -25px !important;
         padding: 0 !important;
         margin-top: -39px;
     }
 
     .quick-link-title {
         display: flex;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
     
     .page-links {
         display: flex;
-        padding-bottom: 16px;
     }
 
     .footer-details {
-        padding-bottom: 22px !important;
+        padding-bottom: 0.5% !important;
 
     }
     .left-content {
@@ -77,21 +74,19 @@
         margin-right: auto;
     }
     .follow-us{
-      margin-top:55px;
+      font-size: 18px !important;
     }
     .social-media {
         position: absolute;
         margin-right: auto;
         margin-left: 65%;
-        margin-top: 266px;
+        margin-top: 150px;
     }
     .smicon {
-        padding:  20% 10% !important;
+        padding: 20% 10% !important;
     }
     .footer {
         box-sizing: border-box;
-        height: 557px !important;
-    }
-    
-
+        height: 375px !important;
+    }   
 }
