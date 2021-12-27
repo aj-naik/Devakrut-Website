@@ -6,59 +6,82 @@ const Footer = () => (
     <div className="footer">
       <div className="content">
         <div className="left-content">
-        <div className="title-logo">
-          <a href="https://devakrut.netlify.app/">
-            <img
-              className="logo"
-              src="./img/footer/Devakrut_LOGO_1 1.svg"
-              alt="logo"
-            ></img>{" "}
-          </a>
-        </div>
-        <div className="footer-description">
-          <p className="para-text">
-            We are manufacturer of Cold press oil. You will get 100% pure Cold
-            pressed Groundnut Oil, Coconut Oil, Sesame Oil (Teel) , Safflower
-            Oil (Kardai) , Almond Oil.
-          </p>
-        </div>
-        <div className="footer-content">
-          <span className="footer-details">
-            <a className="details" href="https://goo.gl/maps/rNA2nxyHudL4E9rF7">
-              <img src="/img/footer/pin.svg" alt="Map" className="icon"></img>
-              Shop No 4, Sagar Sanidhya Court Road, Alibaug-Akshi Ferry,
-              Alibag, Maharashtra 402201
-            </a>
-          </span>
-          <span className="footer-details">
-            <a className="details" href="mailto://info@devakrut.com">
+          <div className="title-logo">
+            <a href="https://devakrut.netlify.app/">
               <img
-                src="/img/footer/gmail.svg"
-                alt="gmail"
-                className="icon"
-              ></img>
-              www.devakrut.com | info@devakrut.com
+                className="logo"
+                src="./img/footer/Devakrut_LOGO_1 1.svg"
+                alt="logo"
+              ></img>{" "}
             </a>
-          </span>
-          <span className="footer-details">
-            <a className="details" href="tel://9579611239">
-              <img
-                src="/img/footer/phone.svg"
-                alt="phone"
-                className="icon"
-              ></img>
-              <div className="details-text">9579611239</div>
-            </a>
-          </span>
-        </div>
+          </div>
+          <div className="footer-description">
+            <p className="para-text">
+              We are manufacturer of Cold press oil. You will get 100% pure Cold
+              pressed Groundnut Oil, Coconut Oil, Sesame Oil (Teel) , Safflower
+              Oil (Kardai) , Almond Oil.
+            </p>
+          </div>
+          <div className="footer-content">
+            <span className="footer-details">
+              <a
+                className="details"
+                href="https://goo.gl/maps/rNA2nxyHudL4E9rF7"
+              >
+                <img src="/img/footer/pin.svg" alt="Map" className="icon"></img>
+                Shop No 4, Sagar Sanidhya Court Road, Alibaug-Akshi Ferry,
+                Alibag, Maharashtra 402201
+              </a>
+            </span>
+            <span className="footer-details">
+              <a className="details" href="mailto://info@devakrut.com">
+                <img
+                  src="/img/footer/gmail.svg"
+                  alt="gmail"
+                  className="icon"
+                ></img>
+                www.devakrut.com | info@devakrut.com
+              </a>
+            </span>
+            <span className="footer-details">
+              <a className="details" href="tel://9579611239">
+                <img
+                  src="/img/footer/phone.svg"
+                  alt="phone"
+                  className="icon"
+                ></img>
+                <div className="details-text">9579611239</div>
+              </a>
+            </span>
+          </div>
         </div>
         <div className="quick-links">
           <div className="quick-link-title">Quick Links</div>
           <div className="footer-navbar">
-            <a className="page-links details" href="https://devakrut.netlify.app/">Home</a>
-            <a className="page-links details" href="https://devakrut.netlify.app/">Products</a>
-            <a className="page-links details" href="https://devakrut.netlify.app/">About Us</a>
-            <a className="page-links details" href="https://devakrut.netlify.app/">Contact Us</a>
+            <a
+              className="page-links details"
+              href="https://devakrut.netlify.app/"
+            >
+              Home
+            </a>
+            <a
+              className="page-links details"
+              href="https://devakrut.netlify.app/"
+            >
+              Products
+            </a>
+            <a
+              className="page-links details"
+              href="https://devakrut.netlify.app/"
+            >
+              About Us
+            </a>
+            <a
+              className="page-links details"
+              href="https://devakrut.netlify.app/"
+            >
+              Contact Us
+            </a>
           </div>
         </div>
         <div className="social-media">

@@ -34,14 +34,13 @@ export default function AboutPage() {
           src="img/about/banda1.svg"
           alt="main-img-1"
         />
-      
 
-      <div className="text-container" id="text-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-        quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
-        viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
-        Eget a pellentesque ut urna proin adipiscing ut.
-      </div>
+        <div className="text-container" id="text-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
+          quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
+          viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
+          Eget a pellentesque ut urna proin adipiscing ut.
+        </div>
       </div>
 
       <img

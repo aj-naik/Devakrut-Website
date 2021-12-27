@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 .about-page {
   background: #fffaea;
@@ -19,8 +18,8 @@
   text-shadow: 1px -1px 1px#F4BC2B;
 }
 
-.text-container{
-  position:relative;
+.text-container {
+  position: relative;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -31,16 +30,15 @@
   z-index: 1;
   padding-left: 8.47vw;
   padding-right: 8.47vw;
-  
 }
-#text-1{
+#text-1 {
   padding-bottom: 30px;
 }
-#text-2{
+#text-2 {
   padding-bottom: 29px;
 }
 
-#text-3{
+#text-3 {
   padding-bottom: 30px;
 }
 
@@ -56,8 +54,8 @@
   margin-right: auto;
   width: 55%;
   padding-bottom: 15px;
-  z-index:1;
-  padding:  0 5% 5% 5%;
+  z-index: 1;
+  padding: 0 5% 5% 5%;
   box-sizing: border-box;
 }
 
@@ -67,7 +65,7 @@
   z-index: 0;
   margin-top: 5%;
 }
-#circle-1-desk{
+#circle-1-desk {
   display: none;
 }
 
@@ -77,8 +75,8 @@
   right: 0%;
   margin-top: 9%;
   overflow: hidden;
-} 
-#circle-2-desk{
+}
+#circle-2-desk {
   display: none;
 }
 
@@ -111,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width:65%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 29px;

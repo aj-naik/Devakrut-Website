@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
 .main-product-page {
-    background: #fffaea;
+  background: #fffaea;
 }
 
 .product-page {
@@ -117,6 +117,3 @@
   /* padding-left: 35px; */
   padding-bottom: 38px;
 }
-
-
-

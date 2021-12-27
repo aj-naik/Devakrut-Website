@@ -3,10 +3,9 @@
 }
 .main-contact-page {
   position: relative;
-  background: #FFFAEA;
+  background: #fffaea;
   font-size: 25px;
   padding: 15% 7.77%;
- 
 }
 
 .contact-box {
@@ -32,7 +31,7 @@
   text-align: center;
 }
 
-.ellipse-container{
+.ellipse-container {
   position: absolute;
   z-index: 11;
   float: left;
@@ -54,7 +53,7 @@
   padding-bottom: 19px;
 }
 
-.form{
+.form {
   padding-left: 49px;
   padding-right: 49px;
 }
@@ -63,7 +62,7 @@
   display: block;
 }
 
-.label-name{
+.label-name {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
@@ -81,7 +80,7 @@
   display: inline-block;
   border: none;
   background: transparent;
-  border-bottom: 1px solid #B7B7B7;
+  border-bottom: 1px solid #b7b7b7;
 }
 
 .data-2 {
@@ -101,7 +100,7 @@
 }
 
 .data-2 {
-  border: 1px dashed #B7B7B7;
+  border: 1px dashed #b7b7b7;
   /* box-sizing: border-box; */
   border-radius: 10px;
   margin-top: 10px;
@@ -111,13 +110,13 @@
   padding: 3% 6.5%;
 }
 
-.submit-button { 
+.submit-button {
   display: block;
   margin: 0 auto;
   margin-top: 32px;
   border: none;
   text-align: center;
-  background-color: #F4BC2B;
+  background-color: #f4bc2b;
   color: #ffffff;
   border-radius: 27px;
   font-family: Source Sans Pro;

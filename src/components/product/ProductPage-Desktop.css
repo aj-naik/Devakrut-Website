@@ -9,7 +9,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
-    
   }
   .benefits-title {
     font-weight: 700;
@@ -45,21 +44,21 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .image-text{
-      font-size: 18.2px;
-      line-height: 20px;
-      padding-top: 8px;
+  .image-text {
+    font-size: 18.2px;
+    line-height: 20px;
+    padding-top: 8px;
   }
   .p-img {
     width: 60%;
     height: 30%;
   }
-  .product-i{
-      margin-top: -9%;
-      width: 40%;
+  .product-i {
+    margin-top: -9%;
+    width: 40%;
   }
 
   #groundnut {
-      padding-bottom: 2%
+    padding-bottom: 2%;
   }
 }

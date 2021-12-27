@@ -9,7 +9,7 @@ export default function CarouselComponent() {
       showThumbs={false}
       centerMode={true}
       autoPlay
-      centerSlidePercentage={window.innerWidth < 768?45:30}
+      centerSlidePercentage={window.innerWidth < 768 ? 45 : 30}
       showIndicators={false}
       showStatus={false}
       infiniteLoop={true}
