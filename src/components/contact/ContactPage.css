@@ -1,5 +1,5 @@
-.contact-image-container, .contact-details {
-  display: none !important;
+.right-content {
+  display: none;
 }
 .main-contact-page {
   position: relative;

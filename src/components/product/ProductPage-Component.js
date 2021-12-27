@@ -11,7 +11,7 @@ export default function ProductPage() {
     <div className="main-product-page">
     <Carousel
       showThumbs={false}
-      autoPlay
+      // autoPlay
       showIndicators={false}
       showStatus={false}
       infiniteLoop={true}
@@ -97,7 +97,7 @@ export default function ProductPage() {
         <div className="product-content">
           <div className="title">Wood Pressed Groundnut Oil</div>
           <div className="product-img-container">
-            <img className="product-i" src="img/product/groundnut.svg" alt="groundnut"></img>
+            <img className="product-i" src="img/product/groundnut.svg" alt="groundnut" id="groundnut"></img>
           </div>
           <div className="product-content">
             <p>
@@ -249,7 +249,7 @@ export default function ProductPage() {
         <div className="product-content">
           <div className="title">Wood Pressed Mustard Oil</div>
           <div className="product-img-container">
-            <img className="product-i" src="img/product/mustard.svg" alt="mustard"></img>
+            <img className="product-i" src="img/product/mustard.svg" alt="mustard" id = "mustard"></img>
           </div>
           <div className="product-content">
             <p>

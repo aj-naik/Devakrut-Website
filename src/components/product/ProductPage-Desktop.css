@@ -9,6 +9,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
+    
   }
   .benefits-title {
     font-weight: 700;
@@ -56,5 +57,9 @@
   .product-i{
       margin-top: -9%;
       width: 40%;
+  }
+
+  #groundnut {
+      padding-bottom: 2%
   }
 }
