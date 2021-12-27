@@ -16,7 +16,7 @@
   color: #673c13;
   text-align: center;
   padding-bottom: 15px;
-  text-shadow: 3px -3px 1px#F4BC2B;
+  text-shadow: 1px -1px 1px#F4BC2B;
 }
 
 .text-container{
@@ -54,9 +54,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 55%;
   padding-bottom: 15px;
   z-index:1;
+  padding:  0 5% 5% 5%;
+  box-sizing: border-box;
 }
 
 #circle-1 {
@@ -132,22 +134,3 @@
 #img-4 {
   padding-bottom: 10px;
 }
-
-/* #image-1{
-    position: absolute;
-width: 227px;
-height: 197px;
-left: 67px;
-top: 308px;
-}
-
-#image-2{
-position: absolute;
-width: 227px;
-height: 197px;
-left: 57px;
-top: 619px;
-
-} */
-
-

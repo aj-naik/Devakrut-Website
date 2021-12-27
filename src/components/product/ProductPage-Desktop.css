@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) {
+  .carousel .slide img {
+    width: 35%;
+    vertical-align: top;
+    border: 0;
+    float: right;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .benefits-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .detail-points {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .process-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    padding-bottom: 15px;
+  }
+  .product-content {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .process-details {
+    padding-top: 13px;
+    vertical-align: top;
+    text-align: center;
+    width: 63.65vw;
+    display: flex;
+  }
+  .process-image {
+    display: flex;
+    padding-left: 15px;
+    width: 22%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .image-text{
+      font-size: 18.2px;
+      line-height: 20px;
+      padding-top: 8px;
+  }
+  .p-img {
+    width: 60%;
+    height: 30%;
+  }
+  .product-i{
+      margin-top: -9%;
+      width: 40%;
+  }
+}

@@ -1,0 +1,130 @@
+@media screen and (min-width: 768px) {
+  .main-contact-page {
+    padding: 8% 4%;
+  }
+  .ellipse-container-desk {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 5%;
+  }
+  .ellipse-container {
+    display: none;
+  }
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-grow: 2;
+    position: relative;
+    z-index: 16;
+  }
+
+  .contact-box {
+    position: relative;
+    background: #ffffff;
+    border-radius: 15px;
+    /* margin: 25% 7.77%; */
+    padding-bottom: 22px;
+    padding-top: 42px;
+    padding-left: 78px;
+    padding-right: 78px;
+    height: 176.94%;
+    z-index: 15;
+    flex-grow: 2;
+  }
+
+  .box-title {
+    padding-bottom: 9px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .box-subtitle {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fbbc04;
+  }
+
+  .label-name {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 59px;
+  }
+
+  .data {
+    padding-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .data-2 {
+    width: 102.5%;
+    height: 110px;
+  }
+
+  .submit-button {
+    width: 200px;
+    height: 45px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 38px;
+
+
+color: #FFFFFF;
+  }
+
+  .contact-image-container {
+    display: flex;
+    height: 65%;
+    padding: 0 20px;
+    width: 49vw;
+    flex-wrap: wrap;
+  }
+  .container {
+    display: flex;
+  }
+  .image-row2 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .image-contact {
+    width: 49vw;
+  }
+  .image-contactrow-1 {
+    width: 27.146vw;
+  }
+  .image-contactrow-2 {
+    width: 21.854vw;
+  }
+  .details-black {
+    display: flex;
+    text-decoration: none;
+    color: #1a1a18;
+    align-items: center;
+    text-shadow: none;
+  }
+  #contact-phoneicon {
+    max-width: 20px;
+  }
+  .contact-details {
+    padding: 5%;
+  }
+  .ts-0 {
+    text-shadow: none;
+  }
+}

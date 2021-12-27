@@ -2,6 +2,9 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./ProductPage.css";
+import "./ProductPage-Desktop.css";
+
+
 
 export default function ProductPage() {
   return (
@@ -398,7 +401,7 @@ export default function ProductPage() {
         <div className="product-content">
           <div className="title">Wood Pressed Sesame Oil</div>
           <div className="product-img-container">
-            <img id="sesame-img" src="img/product/sesame.png" alt="sesame"></img>
+            <img id="sesame-img" src="img/product/sesame.png" alt="sesame" className="product-i"></img>
           </div>
           <div className="product-content">
             <p>

@@ -8,6 +8,7 @@ export default function CarouselComponent() {
     <Carousel
       showThumbs={false}
       centerMode={true}
+      autoPlay
       centerSlidePercentage={window.innerWidth < 768?45:30}
       showIndicators={false}
       showStatus={false}

@@ -55,10 +55,10 @@ const Footer = () => (
         <div className="quick-links">
           <div className="quick-link-title">Quick Links</div>
           <div className="footer-navbar">
-            <a className="page-links" href="https://devakrut.netlify.app/">Home</a>
-            <a className="page-links" href="https://devakrut.netlify.app/">Products</a>
-            <a className="page-links" href="https://devakrut.netlify.app/">About Us</a>
-            <a className="page-links" href="https://devakrut.netlify.app/">Contact Us</a>
+            <a className="page-links details" href="https://devakrut.netlify.app/">Home</a>
+            <a className="page-links details" href="https://devakrut.netlify.app/">Products</a>
+            <a className="page-links details" href="https://devakrut.netlify.app/">About Us</a>
+            <a className="page-links details" href="https://devakrut.netlify.app/">Contact Us</a>
           </div>
         </div>
         <div className="social-media">

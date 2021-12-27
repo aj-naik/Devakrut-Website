@@ -36,7 +36,7 @@
   padding-bottom: 0.5%;
 }
 
-a {
+.details {
   display: flex;
   text-decoration: none;
   color: #ffffff;
@@ -71,5 +71,8 @@ a {
 .smicon {
   padding: 3%;
   display: inline-block;
+}
+.page-links {
+  display: none;
 }
 @import 'Footer-Desktop.css';

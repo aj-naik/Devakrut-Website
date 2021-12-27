@@ -53,7 +53,7 @@
     }
     
     .page-links {
-        display: flex;
+        display: flex !important;
     }
 
     .footer-details {

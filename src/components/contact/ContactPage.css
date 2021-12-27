@@ -1,3 +1,6 @@
+.contact-image-container, .contact-details {
+  display: none !important;
+}
 .main-contact-page {
   position: relative;
   background: #FFFAEA;
@@ -35,6 +38,9 @@
   float: left;
   margin-left: -7.77%;
   margin-top: -15%;
+}
+.ellipse-container-desk {
+  display: none;
 }
 
 .box-subtitle {
