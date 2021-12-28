@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import "./HomePage-Desktop.css";
 
 export default function HomePage() {
   return (
