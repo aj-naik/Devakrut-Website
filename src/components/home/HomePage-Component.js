@@ -48,9 +48,15 @@ export default function HomePage() {
           alt="mustard-desk"
         />
       </div>
-
-      <div className="process-section">
-      <img
+      <div className="process-section mobile">
+        <img
+          className="process"
+          src="/img/homepage/process.svg"
+          alt="process"
+        />
+      </div>
+      <div className="process-section desktop">
+        <img
           className="process-thread"
           src="/img/homepage/thread_desk.svg"
           alt="process"
@@ -93,10 +99,32 @@ export default function HomePage() {
       </div>
       <div className="benefits-section">
         <img
-          className="benefits"
+          className="benefits mobile"
           src="/img/homepage/benefits.svg"
           alt="process"
         />
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+          <img
+            className="benefits-left desktop"
+            src="/img/homepage/benefits_left.svg"
+            alt="benefits_left"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration="1200">
+          <img
+            className="benefits-bottles desktop"
+            src="/img/homepage/benefits_bottles.svg"
+            alt="benefits_left"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+          <img
+            className="benefits-right desktop"
+            src="/img/homepage/benefits_right.svg"
+            alt="benefits_right"
+          />
+        </AnimatedOnScroll>
+
       </div>
     </>
   );

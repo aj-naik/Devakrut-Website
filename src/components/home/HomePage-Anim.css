@@ -15,12 +15,12 @@
   animation: fade-in-right 1.2s ease-in-out backwards;
 }
 .fade-in-bl {
-	-webkit-animation: fade-in-bl 1.2s ease-in-out both;
-	        animation: fade-in-bl 1.2s ease-in-out both;
+  -webkit-animation: fade-in-bl 1.2s ease-in-out both;
+  animation: fade-in-bl 1.2s ease-in-out both;
 }
 .fade-in-br {
-	-webkit-animation: fade-in-br 1.2s ease-in-out both;
-	        animation: fade-in-br 1.2s ease-in-out both;
+  -webkit-animation: fade-in-br 1.2s ease-in-out both;
+  animation: fade-in-br 1.2s ease-in-out both;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -110,77 +110,76 @@
 }
 
 @-webkit-keyframes fade-in-right {
-    0% {
-      -webkit-transform: translateX(200px);
-      transform: translateX(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    opacity: 0;
   }
-  @keyframes fade-in-right {
-    0% {
-      -webkit-transform: translateX(200px);
-      transform: translateX(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
   }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 @-webkit-keyframes fade-in-bl {
-    0% {
-      -webkit-transform: translateX(-200px) translateY(200px);
-              transform: translateX(-200px) translateY(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-200px) translateY(200px);
+    transform: translateX(-200px) translateY(200px);
+    opacity: 0;
   }
-  @keyframes fade-in-bl {
-    0% {
-      -webkit-transform: translateX(-200px) translateY(200px);
-              transform: translateX(-200px) translateY(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+    opacity: 1;
   }
-  
+}
+@keyframes fade-in-bl {
+  0% {
+    -webkit-transform: translateX(-200px) translateY(200px);
+    transform: translateX(-200px) translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes fade-in-br {
-    0% {
-      -webkit-transform: translateX(200px) translateY(200px);
-              transform: translateX(200px) translateY(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(200px) translateY(200px);
+    transform: translateX(200px) translateY(200px);
+    opacity: 0;
   }
-  @keyframes fade-in-br {
-    0% {
-      -webkit-transform: translateX(200px) translateY(200px);
-              transform: translateX(200px) translateY(200px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+    opacity: 1;
   }
-  
+}
+@keyframes fade-in-br {
+  0% {
+    -webkit-transform: translateX(200px) translateY(200px);
+    transform: translateX(200px) translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}

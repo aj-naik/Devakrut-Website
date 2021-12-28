@@ -2,7 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
-export default function CarouselComponent({slidePercentage}) {
+export default function CarouselComponent({ slidePercentage }) {
 
   return (
     <Carousel

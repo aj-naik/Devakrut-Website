@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+  .mobile {
+    display: none !important;
+  }
   .desktop {
     display: block;
   }
@@ -6,8 +9,8 @@
     display: none;
   }
   .l-y-cicrle {
-      display: block;
-      position: absolute;
+    display: block;
+    position: absolute;
     background: #fffaea;
     width: 118vw;
     height: 118vw;
@@ -16,19 +19,20 @@
     top: calc(-50vw + 3.75vw);
     left: calc(50% - 59.5vw);
     z-index: -20;
+    overflow-x: hidden;
   }
   .y-cicrle {
     display: block;
     position: absolute;
-  background: #F4BC2B;
-  width: 43.875vw;
-  height: 43.875vw;
-  border-radius: 50%;
-  position: relative;
-  top: calc(-118vw + 3.75vw);
-  left: calc(50% - 21.9375vw);
-  z-index: -20;
-}
+    background: #f4bc2b;
+    width: 43.875vw;
+    height: 43.875vw;
+    border-radius: 50%;
+    position: relative;
+    top: calc(-118vw + 3.75vw);
+    left: calc(50% - 21.9375vw);
+    z-index: -20;
+  }
 
   .main-image-desk {
     display: flex;
@@ -151,5 +155,33 @@
     width: 31vw;
     margin-top: 1%;
     margin-left: 40%;
+  }
+  .benefits-left {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 38vw;
+    margin-top: -1%;
+    margin-left: 6%;
+  }
+  .benefits-right {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 39.6vw;
+    margin-top: -50%;
+    margin-left: 56%;
+    margin-bottom: 15%;
+  }
+  .benefits-bottles {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 33.7vw;
+    margin-top: -45%;
+    margin-left: 26%;
   }
 }
