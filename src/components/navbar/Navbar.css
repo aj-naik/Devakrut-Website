@@ -1,3 +1,28 @@
-/* .navbar{}
-.navbar_logo{}
-.navbar_item{} */
+.navbar {
+  display: flex;
+  background-color: #fffaea;
+  align-items: baseline;
+}
+.navbar_item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.smicon-navbar {
+  margin-left: 1.2vw;
+  margin-right: 1.2vw;
+  margin-bottom: -3px;
+}
+.menu-item {
+  font-family: Girassol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #212121;
+}
+.navbar_logo {
+  margin-left: 8.33%;
+  margin-top: 1%;
+  margin-right: 25%;
+}

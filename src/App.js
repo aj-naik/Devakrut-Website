@@ -1,5 +1,6 @@
 import "./App.css";
 import SideBar from "./components/sidebar/Sidebar-Component";
+import NavBar from "./components/navbar/Navbar-Component";
 import HomePage from "./components/home/HomePage-Component";
 import AboutPage from "./components/about/AboutPage-Component";
 import ProductPage from "./components/product/ProductPage-Component";
@@ -10,13 +11,8 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <SideBar
-        pageWrapId={"page-wrap"}
-        outerContainerId={"App"}
-        customBurgerIcon={<img src="img/menu/hamburger-menu.svg" alt="menu" />}
-        width={"50%"}
-      />
       <div id="page-wrap">
+        <MainHeader />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -29,14 +25,23 @@ function App() {
   );
 }
 
-// const MyComponent = () => {
-//    The current width of the viewport
-//   const width = window.innerWidth;
-//    The width below which the mobile view should be rendered
-//   const breakpoint = 620;
+const MainHeader = () => {
+  //  The current width of the viewport
+  const width = window.innerWidth;
+  //  The width below which the mobile view should be rendered
+  const breakpoint = 768;
 
-//   If the viewport is more narrow than the breakpoint render the
-//      mobile component, else render the desktop component
-//   return width < breakpoint ? <MobileComponent /> : <DesktopComponent />;
-// }
+  // If the viewport is more narrow than the breakpoint render the
+  //  mobile component, else render the desktop component
+  return width < breakpoint ? (
+    <SideBar
+      pageWrapId={"page-wrap"}
+      outerContainerId={"App"}
+      customBurgerIcon={<img src="img/menu/hamburger-menu.svg" alt="menu" />}
+      width={"50%"}
+    />
+  ) : (
+    <NavBar />
+  );
+};
 export default App;
