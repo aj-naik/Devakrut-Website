@@ -1,5 +1,99 @@
 @media screen and (min-width: 768px) {
-    .main-image {
-        
-    }
+  .desktop {
+    display: block;
+  }
+  .main-image {
+    display: none;
+  }
+  .l-y-cicrle {
+      display: block;
+      position: absolute;
+    background: #fffaea;
+    width: 118vw;
+    height: 118vw;
+    border-radius: 50%;
+    position: relative;
+    top: calc(-50vw + 3.75vw);
+    left: calc(50% - 59.5vw);
+    z-index: -20;
+  }
+  .y-cicrle {
+    display: block;
+    position: absolute;
+  background: #F4BC2B;
+  width: 43.875vw;
+  height: 43.875vw;
+  border-radius: 50%;
+  position: relative;
+  top: calc(-118vw + 3.75vw);
+  left: calc(50% - 21.9375vw);
+  z-index: -20;
+}
+
+  .main-image-desk {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 75vw;
+    z-index: -12;
+    margin-top: -7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bottles-desk-home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    margin-top: -142%;
+    z-index: -9;
+    margin-left: calc(50% - 11vw);
+    width: 23.25vw;
+  }
+  .title-main {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    margin-top: -33%;
+    width: 71.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nuts_home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 31vw;
+    margin-top: 1.54%;
+    margin-left: 19%;
+  }
+  .sunflower_home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 25vw;
+    margin-top: -16%;
+    margin-left: 32%;
+  }
+  .coconut_home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 28vw;
+    margin-top: -22%;
+    margin-left: 45%;
+  }
+  .mustard_flower {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 21vw;
+    margin-top: -22%;
+    margin-left: 55%;
+  }
 }
