@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
 .main-product-page {
-  background: #fffaea;
+    background: #fffaea;
 }
 
 .product-page {
@@ -86,7 +86,7 @@
   padding-top: 13px;
   vertical-align: top;
   text-align: center;
-  width: 87.5vw;
+  width: fit-content;
   display: flex;
 }
 
@@ -117,3 +117,6 @@
   /* padding-left: 35px; */
   padding-bottom: 38px;
 }
+
+
+
