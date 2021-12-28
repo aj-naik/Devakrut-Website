@@ -35,14 +35,9 @@
     color: #1a1a18;
   }
 
-  .certification-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 29px;
+  .img-cert {
+    width: 12.5%;
+    padding: 1% 5%;
   }
 
   #box1 {

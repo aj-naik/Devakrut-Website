@@ -7,12 +7,25 @@ import ProductPage from "./components/product/ProductPage-Component";
 import ContactPage from "./components/contact/ContactPage-Component";
 import Footer from "./components/footer/Footer-Component";
 import { Routes, Route } from "react-router-dom";
-
+import { useMediaQuery } from "react-responsive";
 function App() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 768px)",
+  });
   return (
     <>
       <div id="page-wrap">
-        <MainHeader />
+        {isDesktopOrLaptop && <NavBar />}
+        {!isDesktopOrLaptop && (
+          <SideBar
+            pageWrapId={"page-wrap"}
+            outerContainerId={"App"}
+            customBurgerIcon={
+              <img src="img/menu/hamburger-menu.svg" alt="menu" />
+            }
+            width={"50%"}
+          />
+        )}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -24,24 +37,4 @@ function App() {
     </>
   );
 }
-
-const MainHeader = () => {
-  //  The current width of the viewport
-  const width = window.innerWidth;
-  //  The width below which the mobile view should be rendered
-  const breakpoint = 768;
-
-  // If the viewport is more narrow than the breakpoint render the
-  //  mobile component, else render the desktop component
-  return width < breakpoint ? (
-    <SideBar
-      pageWrapId={"page-wrap"}
-      outerContainerId={"App"}
-      customBurgerIcon={<img src="img/menu/hamburger-menu.svg" alt="menu" />}
-      width={"50%"}
-    />
-  ) : (
-    <NavBar />
-  );
-};
 export default App;

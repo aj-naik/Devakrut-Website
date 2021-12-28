@@ -2,8 +2,11 @@ import React from "react";
 import "./AboutPage.css";
 import "./AboutPage-Desktop.css";
 import CarouselComponent from "../carousel/Carousel-Component";
-
+import { useMediaQuery } from "react-responsive";
 export default function AboutPage() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 768px)",
+  });
   return (
     <div className="about-page">
       <div className="main-title">Devakrut</div>
@@ -74,17 +77,18 @@ export default function AboutPage() {
 
       <div className="testimonial">
         <div className="testimonial-text">Testimonials</div>
-        <CarouselComponent />
+        {isDesktopOrLaptop && <CarouselComponent slidePercentage={30} />}
+        {!isDesktopOrLaptop && <CarouselComponent slidePercentage={45} />}
       </div>
 
       <div className="certification">
         <div className="certification-text">Certified By</div>
 
         <div className="certification-img">
-          <img src="img/about/certified-1.svg" alt="img1" id="img-1"></img>
-          <img src="img/about/certified-2.svg" alt="img2" id="img-2"></img>
-          <img src="img/about/certified-3.svg" alt="img3" id="img-3"></img>
-          <img src="img/about/certified-4.svg" alt="img4" id="img-4"></img>
+          <img src="img/about/certified-1.svg" alt="img1" id="img-1" className="img-cert"></img>
+          <img src="img/about/certified-2.svg" alt="img2" id="img-2" className="img-cert"></img>
+          <img src="img/about/certified-3.svg" alt="img3" id="img-3" className="img-cert"></img>
+          <img src="img/about/certified-4.svg" alt="img4" id="img-4" className="img-cert"></img>
         </div>
       </div>
     </div>

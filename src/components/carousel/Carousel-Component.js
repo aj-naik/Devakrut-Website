@@ -2,14 +2,14 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
+export default function CarouselComponent({slidePercentage}) {
 
-export default function CarouselComponent() {
   return (
     <Carousel
       showThumbs={false}
       centerMode={true}
       autoPlay
-      centerSlidePercentage={window.innerWidth < 768 ? 45 : 30}
+      centerSlidePercentage={slidePercentage}
       showIndicators={false}
       showStatus={false}
       infiniteLoop={true}
