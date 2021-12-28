@@ -1,4 +1,5 @@
 import React from "react";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import "./HomePage.css";
 import "./HomePage-Desktop.css";
 import "./HomePage-Anim.css";
@@ -6,15 +7,15 @@ import "./HomePage-Anim.css";
 export default function HomePage() {
   return (
     <>
-    <span className="desktop l-y-cicrle"></span>
-    
+      <span className="desktop l-y-cicrle"></span>
+
       <div className="main-image-section">
         <img
           className="main-image"
           src="/img/homepage/mainimg.svg"
           alt="mainimg"
         />
-        
+
         <span className="desktop y-cicrle"></span>
         <img
           className="desktop bottles-desk-home scale-up-center"
@@ -47,38 +48,48 @@ export default function HomePage() {
           alt="mustard-desk"
         />
       </div>
+
       <div className="process-section">
-        {/* <span className="process-heading">Process</span>
-        <span className="process-subtitle">From Farm to your Doorsteps</span>
-        <span className="process-number" id="process-1">
-          1
-        </span>
-        <span className="process-text" id="process-text-1">
-          Sourced Direct from the farms.
-        </span>
-        <span className="process-number" id="process-2">
-          2
-        </span>
-        <span className="process-text" id="process-text-2">
-          Cold Pressed Extraction
-        </span>
-        <span className="process-number" id="process-3">
-          3
-        </span>
-        <span className="process-text" id="process-text-3">
-          Filtered Naturally
-        </span>
-        <span className="process-number" id="process-4">
-          4
-        </span>
-        <span className="process-text" id="process-text-4">
-          Chemical and preservative free botling
-        </span> */}
-        <img
-          className="process"
-          src="/img/homepage/process.svg"
+      <img
+          className="process-thread"
+          src="/img/homepage/thread_desk.svg"
           alt="process"
         />
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration="1200">
+          <img
+            className="process_title"
+            src="/img/homepage/process_title_home.svg"
+            alt="process title"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+          <img
+            className="process_1"
+            src="/img/homepage/process_1_home.svg"
+            alt="process1"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+          <img
+            className="process_2"
+            src="/img/homepage/process_2_home.svg"
+            alt="process2"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+          <img
+            className="process_3"
+            src="/img/homepage/process_3_home.svg"
+            alt="process3"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+          <img
+            className="process_4"
+            src="/img/homepage/process_4_home.svg"
+            alt="process4"
+          />
+        </AnimatedOnScroll>
       </div>
       <div className="benefits-section">
         <img

@@ -96,4 +96,60 @@
     margin-top: -22%;
     margin-left: 55%;
   }
+  .process-section {
+    margin-top: -125%;
+  }
+  .process-thread {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    margin-top: -19%;
+    margin-left: 6%;
+    width: 71.5vw;
+  }
+  .process_title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    margin-top: -55%;
+    margin-left: 6%;
+  }
+  .process_1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 31vw;
+  }
+  .process_2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 31vw;
+    margin-top: -21%;
+    margin-left: 66%;
+  }
+  .process_3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 31vw;
+    margin-top: 7%;
+    margin-left: 26%;
+  }
+  .process_4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -11;
+    width: 31vw;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
 }

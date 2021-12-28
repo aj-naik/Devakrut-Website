@@ -1,26 +1,26 @@
 .scale-up-center {
-  -webkit-animation: scale-up-center 1s ease-out both;
-  animation: scale-up-center 1s ease-out both;
+  -webkit-animation: scale-up-center 1.2s ease-out both;
+  animation: scale-up-center 1.2s ease-out both;
 }
 .fade-in {
-  -webkit-animation: fade-in 1s ease-in-out backwards;
-  animation: fade-in 1s ease-in-out backwards;
+  -webkit-animation: fade-in 1.2s ease-in-out backwards;
+  animation: fade-in 1.2s ease-in-out backwards;
 }
 .fade-in-left {
-  -webkit-animation: fade-in-left 1s ease-in-out backwards;
-  animation: fade-in-left 1s ease-in-out backwards;
+  -webkit-animation: fade-in-left 1.2s ease-in-out backwards;
+  animation: fade-in-left 1.2s ease-in-out backwards;
 }
 .fade-in-right {
-  -webkit-animation: fade-in-right 1s ease-in-out backwards;
-  animation: fade-in-right 1s ease-in-out backwards;
+  -webkit-animation: fade-in-right 1.2s ease-in-out backwards;
+  animation: fade-in-right 1.2s ease-in-out backwards;
 }
 .fade-in-bl {
-	-webkit-animation: fade-in-bl 1s ease-in-out both;
-	        animation: fade-in-bl 1s ease-in-out both;
+	-webkit-animation: fade-in-bl 1.2s ease-in-out both;
+	        animation: fade-in-bl 1.2s ease-in-out both;
 }
 .fade-in-br {
-	-webkit-animation: fade-in-br 1s ease-in-out both;
-	        animation: fade-in-br 1s ease-in-out both;
+	-webkit-animation: fade-in-br 1.2s ease-in-out both;
+	        animation: fade-in-br 1.2s ease-in-out both;
 }
 
 @-webkit-keyframes scale-up-center {
