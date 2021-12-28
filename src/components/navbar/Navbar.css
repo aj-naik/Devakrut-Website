@@ -2,10 +2,15 @@
   display: flex;
   background-color: #fffaea;
   align-items: baseline;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 7.77%;;
 }
 .navbar_item {
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  flex-grow: 1;
 }
 .smicon-navbar {
   margin-left: 1.2vw;
@@ -22,7 +27,7 @@
   color: #212121;
 }
 .navbar_logo {
-  margin-left: 8.33%;
+
   margin-top: 1%;
-  margin-right: 25%;
+  flex-grow: 3;
 }
