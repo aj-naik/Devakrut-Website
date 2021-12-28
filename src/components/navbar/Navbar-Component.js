@@ -16,23 +16,23 @@ const NavBar = () => (
       </div>
       <div className="navbar_item">
         {" "}
-        <Link to="/about" className="menu-item">
+        <Link to="/about" className="menu-item-navbar">
           About
         </Link>
       </div>
       <div className="navbar_item">
-        <Link to="/product" className="menu-item">
+        <Link to="/product" className="menu-item-navbar">
           Product
         </Link>
       </div>
       <div className="navbar_item">
-        <Link to="/contact" className="menu-item">
+        <Link to="/contact" className="menu-item-navbar">
           Contact
         </Link>
       </div>
       <div className="navbar_item">
         {" "}
-        <a className="menu-item" href="tel:9579611239">
+        <a className="menu-item-navbar" href="tel:9579611239">
           9579611239
         </a>
       </div>
