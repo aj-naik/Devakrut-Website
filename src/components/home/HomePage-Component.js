@@ -92,7 +92,7 @@ export default function HomePage() {
         </AnimatedOnScroll>
       </div>
       <div className="benefits-section">
-        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
             className="benefits-title-home formatter"
             src="/img/homepage/benefits_title_home.svg"
