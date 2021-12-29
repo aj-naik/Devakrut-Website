@@ -156,6 +156,11 @@
     margin-top: 1%;
     margin-left: 40%;
   }
+  .benefits-title{
+    position: relative;
+    left: 78px;
+    margin-bottom: 5%;
+  }
   .benefits-left {
     display: flex;
     position: relative;
