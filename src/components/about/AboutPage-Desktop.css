@@ -1,18 +1,18 @@
 @media screen and (min-width: 768px) {
   .main-title {
-    font-size: 70px;
+    font-size: 42px;
     line-height: 117px;
   }
 
   .text-container {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
   }
 
   .image-container {
     position: relative;
     display: block;
-    width: 35%;
+    width: 33%;
     padding-bottom: 15px;
     z-index: 1;
   }
@@ -21,7 +21,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 38px;
+    font-size: 26px;
     line-height: 47px;
     color: #1a1a18;
   }
@@ -30,13 +30,13 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 35px;
     color: #1a1a18;
   }
 
   .img-cert {
-    width: 12.5%;
+    width: 10%;
     padding: 1% 5%;
   }
 
