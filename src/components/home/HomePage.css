@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 .desktop {
-  display: none;
+  display: none !important;
 }
 .main-image {
   display: flex;
@@ -102,129 +102,94 @@
   margin-left: 58.5%;
 }
 
-.process-section {
-  width: 100vw;
-  padding-bottom: 13.055%;
-  padding-top: 79.9%;
-  /* position:relative;  */
-}
-
-.process-heading {
+.process-thread {
   display: flex;
   position: relative;
-  z-index: 2;
-  margin-top: -22.03%;
-  /* margin-top: -3.938rem; */
-  margin-left: 1.938rem;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-
-  color: #673c13;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  z-index: 3;
-}
-
-.process-subtitle {
-  position: relative;
-  z-index: 2;
-  margin-top: -22%;
-  margin-left: 1.938rem;
-
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
-
-  color: #673c13;
-  z-index: 3;
-}
-
-.process-number {
-  display: flex;
-  position: relative;
-  height: 29px;
-  font-family: Girassol;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-  color: #f7ce09;
-}
-
-.process-text {
-  /* Sourced Direct from the farms. */
-  display: flex;
-  position: relative;
-  height: 28px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
-  color: #673c13;
-}
-
-#process-1 {
-  margin-left: 24.16%;
-  margin-top: 27%;
-}
-#process-text-1 {
-  width: 85px;
-  margin-left: 27.77%;
-  margin-top: -4.166%;
-  z-index: 4;
-}
-#process-2 {
-  margin-left: 73.611%;
-  margin-top: 6.4%;
-}
-#process-text-2 {
-  width: 73px;
-  margin-left: 56.944%;
-  margin-top: 0;
-  z-index: 4;
-}
-#process-3 {
-  margin-left: 39.44%;
-  margin-top: 10.156%;
-}
-#process-text-3 {
-  width: 94px;
-  margin-left: 45%;
-  margin-top: -1.25%;
-  z-index: 4;
-}
-#process-4 {
-  margin-left: 63.88%;
-  margin-top: 12.345%;
-}
-#process-text-4 {
-  width: 93px;
-  margin-left: 64.166%;
-  margin-top: 0.46%;
-  z-index: 4;
-}
-
-img.process {
-  display: flex;
-  position: relative;
-  z-index: 2;
-  margin-top: -108.65%;
-  margin-left: 6.4%;
+  justify-content: center;
+  z-index: -11;
+  margin-top: 24%;
+  margin-left: 6%;
   width: 89vw;
 }
-
-img.benefits {
+.process_title {
   display: flex;
   position: relative;
-  z-index: 2;
-  width: 100vw;
+  justify-content: center;
+  z-index: -11;
+  margin-top: -145%;
+  margin-left: 6%;
+  width: 42vw;
+}
+.process_1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  margin-top: 28%;
+  margin-left: 4%;
+  width: 35vw;
+}
+.process_2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 35vw;
+  margin-top: -2%;
+  margin-left: 62%;
+}
+.process_3 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 35vw;
+  margin-top: 19%;
+  margin-left: 26%;
+}
+.process_4 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 35vw;
+  margin-top: 25%;
+  margin-left: 58%;
+}
+
+.benefits-title-home{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 87vw;
+  margin: 11% auto;
+}
+.benefits-left {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 48vw;
+  margin-top: -1%;
+  margin-left: 1.5%;
+}
+.benefits-right {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 50vw;
+  margin-top: -48%;
+  margin-left: 50%;
+  margin-bottom: 15%;
+}
+.benefits-bottles {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 28vw;
+  margin-top: -48%;
+  margin-left: 30%;
 }

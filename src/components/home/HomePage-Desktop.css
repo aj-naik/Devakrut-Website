@@ -1,9 +1,16 @@
 @media screen and (min-width: 768px) {
+  .process-section {
+    width: 100vw;
+    padding-bottom: 13.055%;
+    padding-top: 79.9%;
+    /* position:relative;  */
+  }
+  
   .mobile {
     display: none !important;
   }
   .desktop {
-    display: block;
+    display: block !important;
   }
   .main-image {
     display: none;
@@ -157,9 +164,13 @@
     margin-left: 40%;
   }
   .benefits-title-home{
+    display: flex;
     position: relative;
-    left: 78px;
-    margin-bottom: 5%;
+    justify-content: center;
+    z-index: -11;
+    width: 52vw;
+    margin-top: -1%;
+    margin-left: 6%;
   }
   .benefits-left {
     display: flex;

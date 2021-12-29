@@ -44,14 +44,14 @@ export default function HomePage() {
       </div>
       <div className="process-section mobile">
         <img
-          className="process"
-          src="/img/homepage/processs.svg"
+          className="process-thread mobile"
+          src="/img/homepage/thread_mobile.svg"
           alt="process"
         />
       </div>
-      <div className="process-section desktop">
+      <div className="process-section">
         <img
-          className="process-thread"
+          className="process-thread desktop"
           src="/img/homepage/thread_desk.svg"
           alt="process"
         />
@@ -92,35 +92,30 @@ export default function HomePage() {
         </AnimatedOnScroll>
       </div>
       <div className="benefits-section">
-        <img
-          className="benefits mobile"
-          src="/img/homepage/benefits.svg"
-          alt="process"
-        />
-        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
           <img
-            className="benefits-title-home desktop"
+            className="benefits-title-home"
             src="/img/homepage/benefits_title_home.svg"
             alt="benefits title"
           />
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
           <img
-            className="benefits-left desktop"
+            className="benefits-left"
             src="/img/homepage/benefits_left.svg"
             alt="benefits_left"
           />
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration={1200}>
           <img
-            className="benefits-bottles desktop scale-up-center-2"
+            className="benefits-bottles scale-up-center-2"
             src="/img/homepage/benefits_bottles.svg"
             alt="benefits_left"
           />
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
-            className="benefits-right desktop"
+            className="benefits-right"
             src="/img/homepage/benefits_right.svg"
             alt="benefits_right"
           />
