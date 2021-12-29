@@ -3,13 +3,21 @@ import "./AboutPage.css";
 import "./AboutPage-Desktop.css";
 import CarouselComponent from "../carousel/Carousel-Component";
 import { useMediaQuery } from "react-responsive";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 export default function AboutPage() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 768px)",
   });
   return (
+    
     <div className="about-page">
+      <AnimatedOnScroll
+          animationIn="fadeIn"
+          animationOut=""
+          animationInDuration={1800}
+        >
       <div className="main-title">Devakrut</div>
+      </AnimatedOnScroll>
       <img
         className="yellow-circle"
         id="circle-1"
@@ -22,6 +30,11 @@ export default function AboutPage() {
         src="img/about/circle1-desk.svg"
         alt="circle-1"
       />
+      <AnimatedOnScroll
+          animationIn="fadeIn"
+          animationOut=""
+          animationInDuration={1800}
+        >
 
       <div className="text-container" id="text-1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
@@ -91,6 +104,8 @@ export default function AboutPage() {
           <img src="img/about/certified-4.svg" alt="img4" id="img-4" className="img-cert"></img>
         </div>
       </div>
+      </AnimatedOnScroll>
     </div>
+    
   );
 }
