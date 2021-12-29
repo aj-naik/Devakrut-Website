@@ -103,7 +103,7 @@ export default function HomePage() {
           src="/img/homepage/benefits.svg"
           alt="process"
         />
-        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
           <img
             className="benefits-title-home"
             src="/img/homepage/benefits_title_home.svg"
