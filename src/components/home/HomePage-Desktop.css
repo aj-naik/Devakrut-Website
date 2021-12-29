@@ -5,7 +5,7 @@
     padding-top: 79.9%;
     /* position:relative;  */
   }
-  
+
   .mobile {
     display: none !important;
   }
@@ -52,57 +52,33 @@
     margin-right: auto;
   }
   .bottles-desk-home {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     margin-top: -142%;
     z-index: -9;
     margin-left: calc(50% - 11vw);
     width: 23.25vw;
   }
   .title-main {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     margin-top: -33%;
     width: 71.5vw;
     margin-left: auto;
     margin-right: auto;
   }
   .nuts_home {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 31vw;
     margin-top: 1.54%;
     margin-left: 19%;
   }
   .sunflower_home {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 25vw;
     margin-top: -16%;
     margin-left: 32%;
   }
   .coconut_home {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 28vw;
     margin-top: -22%;
     margin-left: 45%;
   }
   .mustard_flower {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 21vw;
     margin-top: -22%;
     margin-left: 55%;
@@ -111,91 +87,51 @@
     margin-top: -125%;
   }
   .process-thread {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     margin-top: -19%;
     margin-left: 6%;
     width: 71.5vw;
   }
   .process_title {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     margin-top: -55%;
     margin-left: 6%;
   }
   .process_1 {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     margin-top: 5%;
     margin-left: 6%;
     width: 31vw;
   }
   .process_2 {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 31vw;
     margin-top: -21%;
     margin-left: 66%;
   }
   .process_3 {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 31vw;
     margin-top: 7%;
     margin-left: 26%;
   }
   .process_4 {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 31vw;
     margin-top: 1%;
     margin-left: 40%;
   }
-  .benefits-title-home{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
+  .benefits-title-home {
     width: 52vw;
     margin-top: -1%;
     margin-left: 6%;
   }
   .benefits-left {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 38vw;
     margin-top: -1%;
     margin-left: 6%;
   }
   .benefits-right {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 39.6vw;
     margin-top: -50%;
     margin-left: 56%;
     margin-bottom: 15%;
   }
   .benefits-bottles {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    z-index: -11;
     width: 33.7vw;
     margin-top: -45%;
     margin-left: 26%;
