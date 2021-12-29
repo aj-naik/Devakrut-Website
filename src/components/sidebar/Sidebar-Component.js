@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react'
 import { bubble as Menu } from "react-burger-menu";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
-const Sidebar = (props) => {
+
+export default function Sidebar(props) {
+
   return (
     // Pass on our props
     <>
@@ -55,5 +57,3 @@ const Sidebar = (props) => {
     </>
   );
 };
-
-export default Sidebar;

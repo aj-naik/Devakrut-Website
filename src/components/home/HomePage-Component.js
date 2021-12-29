@@ -7,43 +7,37 @@ import "./HomePage-Anim.css";
 export default function HomePage() {
   return (
     <>
-      <span className="desktop l-y-cicrle"></span>
-
+      <span className="l-y-cicrle"></span>
+      <span className="l-y-box mobile"></span>
       <div className="main-image-section">
+        <span className="y-cicrle"></span>
         <img
-          className="main-image"
-          src="/img/homepage/mainimg.svg"
-          alt="mainimg"
-        />
-
-        <span className="desktop y-cicrle"></span>
-        <img
-          className="desktop bottles-desk-home scale-up-center"
+          className="bottles-desk-home scale-up-center"
           src="/img/homepage/bottles_desk.svg"
           alt="bottle-desk"
         />
         <img
-          className="desktop title-main fade-in"
+          className="title-main fade-in"
           src="/img/homepage/devakrut_title_desk.svg"
           alt="title-desk"
         />
         <img
-          className="desktop nuts_home fade-in-left"
+          className="nuts_home fade-in-left"
           src="/img/homepage/groundnut_desk.svg"
           alt="nuts-desk"
         />
         <img
-          className="desktop sunflower_home fade-in-bl"
+          className="sunflower_home fade-in-bl"
           src="/img/homepage/sunflower_desk.svg"
           alt="suns-desk"
         />
         <img
-          className="desktop coconut_home fade-in-br"
+          className="coconut_home fade-in-br"
           src="/img/homepage/coconut_desk.svg"
           alt="coconut-desk"
         />
         <img
-          className="desktop mustard_flower fade-in-right"
+          className="mustard_flower fade-in-right"
           src="/img/homepage/mustard_flower_desk.svg"
           alt="mustard-desk"
         />
@@ -51,7 +45,7 @@ export default function HomePage() {
       <div className="process-section mobile">
         <img
           className="process"
-          src="/img/homepage/process.svg"
+          src="/img/homepage/processs.svg"
           alt="process"
         />
       </div>
@@ -61,35 +55,35 @@ export default function HomePage() {
           src="/img/homepage/thread_desk.svg"
           alt="process"
         />
-        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration={1200}>
           <img
             className="process_title"
             src="/img/homepage/process_title_home.svg"
             alt="process title"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
           <img
             className="process_1"
             src="/img/homepage/process_1_home.svg"
             alt="process1"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
             className="process_2"
             src="/img/homepage/process_2_home.svg"
             alt="process2"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
           <img
             className="process_3"
             src="/img/homepage/process_3_home.svg"
             alt="process3"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
             className="process_4"
             src="/img/homepage/process_4_home.svg"
@@ -103,28 +97,28 @@ export default function HomePage() {
           src="/img/homepage/benefits.svg"
           alt="process"
         />
-        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
-            className="benefits-title-home"
+            className="benefits-title-home desktop"
             src="/img/homepage/benefits_title_home.svg"
             alt="benefits title"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
           <img
             className="benefits-left desktop"
             src="/img/homepage/benefits_left.svg"
             alt="benefits_left"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration={1200}>
           <img
             className="benefits-bottles desktop scale-up-center-2"
             src="/img/homepage/benefits_bottles.svg"
             alt="benefits_left"
           />
         </AnimatedOnScroll>
-        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration="1200">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
           <img
             className="benefits-right desktop"
             src="/img/homepage/benefits_right.svg"

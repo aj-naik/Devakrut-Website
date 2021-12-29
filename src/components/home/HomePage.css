@@ -11,6 +11,96 @@
   width: 100vw;
   z-index: 1;
 }
+.l-y-box {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  left: 0;
+  top: 0;
+  background: #FFFAEA;
+  z-index: -20;
+}
+.l-y-cicrle {
+  display: block;
+  position: absolute;
+  background: #fffaea;
+  width: 100vw;
+  height: 100vw;
+  border-radius: 50%;
+  position: relative;
+  top: 17.03vh;
+  left: 0;
+  z-index: -20;
+  overflow-x: hidden;
+}
+.y-cicrle {
+  display: block;
+  position: absolute;
+  background: #f4bc2b;
+  width: 71.11vw;
+  height: 71.11vw;
+  border-radius: 50%;
+  position: relative;
+  top: calc(-71.11vw);
+  left: calc(50% - 35.55vw);
+  z-index: -20;
+}
+.bottles-desk-home {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  margin-top: -120%;
+  z-index: -9;
+  margin-left: calc(50% - 20.9vw);
+  width: 42vw;
+}
+.title-main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  margin-top: -49.5%;
+  width: 71.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nuts_home {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 35vw;
+  margin-top: 22%;
+  margin-left: 6%;
+}
+.sunflower_home {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 30vw;
+  margin-top: -20%;
+  margin-left: 23%;
+}
+.coconut_home {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 35vw;
+  margin-top: -24%;
+  margin-left: 38.5%;
+}
+.mustard_flower {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -11;
+  width: 25vw;
+  margin-top: -25%;
+  margin-left: 58.5%;
+}
 
 .process-section {
   width: 100vw;
