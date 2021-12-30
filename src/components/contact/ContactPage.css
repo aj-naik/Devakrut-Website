@@ -33,7 +33,7 @@
 
 .ellipse-container {
   position: absolute;
-  z-index: 11;
+  z-index: 0;
   float: left;
   margin-left: -7.77%;
   margin-top: -15%;
