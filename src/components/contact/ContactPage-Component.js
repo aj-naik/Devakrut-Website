@@ -1,12 +1,11 @@
 import React from "react";
 import "./ContactPage.css";
 import "./ContactPage-Desktop.css";
-import { AnimatedOnScroll } from "react-animated-css-onscroll";
 export default function ContactPage() {
   return (
     <>
-      
       <div className="main-contact-page">
+      
         <img
           className="ellipse-container"
           id="ellipse"
@@ -19,11 +18,7 @@ export default function ContactPage() {
           src="img/contactpage/ellipse7.svg"
           alt="ellipse desk"
         />
-        <AnimatedOnScroll
-          animationIn="fadeIn"
-          animationOut=""
-          animationInDuration={1800}
-        >
+        
         <div className="container">
           <div className="contact-box">
             <div className="box-title">Leave Us a Message</div>
@@ -120,9 +115,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-        </AnimatedOnScroll>
       </div>
-      
     </>
   );
 }
