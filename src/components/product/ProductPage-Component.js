@@ -10,7 +10,7 @@ export default function ProductPage() {
     <div className="main-product-page">
       <Carousel
         showThumbs={false}
-        // autoPlay
+        autoPlay
         showIndicators={false}
         showStatus={false}
         infiniteLoop={true}
