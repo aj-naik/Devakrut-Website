@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { bubble as Menu } from "react-burger-menu";
-import Link from 'next/link';
+import "./Sidebar.css";
+import { Link } from "react-router-dom";
 
 export default class Sidebar extends Component {
   constructor(props) {
@@ -33,46 +34,45 @@ export default class Sidebar extends Component {
             <img src="img/menu/hamburger-menu.svg" alt="menu" />
           }
           width={"50%"}>
-          <Link href="/" passHref>
-            <a className="menu-item" onClick={() => this.closeMenu()}>Home</a>
+          <Link to="/" className="menu-item active" onClick={() => this.closeMenu()}>
+            Home
           </Link>
 
-          <Link href="/about" passHref>
-            <a className="menu-item" onClick={() => this.closeMenu()}>About</a>
+          <Link to="/about" className="menu-item" onClick={() => this.closeMenu()}>
+            About
           </Link>
 
-          <Link href="/product" passHref>
-            <a className="menu-item" onClick={() => this.closeMenu()}>Product</a>
+          <Link to="/product" className="menu-item" onClick={() => this.closeMenu()}>
+            Product
           </Link>
 
-          <Link href="/contact" passHref>
-            <a className="menu-item" onClick={() => this.closeMenu()}>Contact</a>
+          <Link to="/contact" className="menu-item" onClick={() => this.closeMenu()}>
+            Contact
           </Link>
 
-          <Link href="tel:9579611239" passHref>
-            <a className="contact-no" onClick={() => this.closeMenu()}>9579611239</a>
-          </Link>
+          <a className="contact-no" href="tel:9579611239" onClick={() => this.closeMenu()}>
+            9579611239
+          </a>
 
           <div className="menu-item">
             <div className="menu-item-icon">
-              <Link
+              <a
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
-                passHref
               >
                 <img src="/img/sidebar/instagram.svg" alt="instagram" />
-              </Link>
+              </a>
             </div>
-            <div className="menu-item-icon" >
-              <Link
+
+            <div className="menu-item-icon">
+              <a
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noreferrer"
-                passHref
               >
                 <img src="/img/sidebar/facebook.svg" alt="facebook" />
-              </Link>
+              </a>
             </div>
           </div>
         </Menu>

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+
+.bm-item {
+  display: inline-block;
+  height: 17px;
+  font-family: "Girassol", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  color: #212121;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: colr 0.2s;
+}
+
+.bm-item:last-child {
+  margin-top: 25px;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: 34px;
+  top: 18px;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #fff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #fff;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item-icon {
+  margin-top: 10px;
+  display: inline-block;
+  flex: 1;
+}
+
+.menu-item-icon:first-child {
+  margin-right: 25px;
+}
+
+.contact-no {
+  color: #f4bc2b;
+  line-height: 17px;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: #f7ce09;
+  text-decoration-thickness: 1.5px;
+}
+.menu-background {
+  position: absolute;
+  width: 100vw;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  background: #fffaea;
+  z-index: 10;
+}
+
+.logo-header {
+  height: 35px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-link {
+  z-index: 999;
+}

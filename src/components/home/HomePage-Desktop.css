@@ -1,0 +1,139 @@
+@media screen and (min-width: 768px) {
+  .process-section {
+    width: 100vw;
+    padding-bottom: 13.055%;
+    padding-top: 79.9%;
+    /* position:relative;  */
+  }
+
+  .mobile {
+    display: none !important;
+  }
+  .desktop {
+    display: block !important;
+  }
+  .main-image {
+    display: none;
+  }
+  .l-y-cicrle {
+    display: block;
+    position: absolute;
+    background: #fffaea;
+    width: 118vw;
+    height: 118vw;
+    border-radius: 50%;
+    position: relative;
+    top: calc(-50vw + 3.75vw);
+    left: calc(50% - 59.5vw);
+    z-index: -20;
+    overflow-x: hidden;
+  }
+  .y-cicrle {
+    display: block;
+    position: absolute;
+    background: #f4bc2b;
+    width: 43.875vw;
+    height: 43.875vw;
+    border-radius: 50%;
+    position: relative;
+    top: calc(-118vw + 3.75vw);
+    left: calc(50% - 21.9375vw);
+    z-index: -20;
+  }
+
+  .main-image-desk {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 75vw;
+    z-index: -12;
+    margin-top: -7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bottles-desk-home {
+    margin-top: -142%;
+    z-index: -9;
+    margin-left: calc(50% - 11vw);
+    width: 23.25vw;
+  }
+  .title-main {
+    margin-top: -33%;
+    width: 71.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nuts_home {
+    width: 31vw;
+    margin-top: 1.54%;
+    margin-left: 19%;
+  }
+  .sunflower_home {
+    width: 25vw;
+    margin-top: -16%;
+    margin-left: 32%;
+  }
+  .coconut_home {
+    width: 28vw;
+    margin-top: -22%;
+    margin-left: 45%;
+  }
+  .mustard_flower {
+    width: 21vw;
+    margin-top: -22%;
+    margin-left: 55%;
+  }
+  .process-section {
+    margin-top: -125%;
+  }
+  .process-thread {
+    margin-top: -19%;
+    margin-left: 6%;
+    width: 71.5vw;
+  }
+  .process_title {
+    margin-top: -55%;
+    margin-left: 6%;
+  }
+  .process_1 {
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 31vw;
+  }
+  .process_2 {
+    width: 31vw;
+    margin-top: -21%;
+    margin-left: 66%;
+  }
+  .process_3 {
+    width: 31vw;
+    margin-top: 7%;
+    margin-left: 26%;
+  }
+  .process_4 {
+    width: 31vw;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+  .benefits-title-home {
+    width: 52vw;
+    margin-top: -1%;
+    margin-left: 6%;
+  }
+  .benefits-left {
+    width: 38vw;
+    margin-top: -1%;
+    margin-left: 6%;
+  }
+  .benefits-right {
+    width: 39.6vw;
+    margin-top: -50%;
+    margin-left: 56%;
+    margin-bottom: 15%;
+  }
+  .benefits-bottles {
+    width: 33.7vw;
+    margin-top: -45%;
+    margin-left: 26%;
+  }
+}
