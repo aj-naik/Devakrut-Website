@@ -3,6 +3,7 @@ import NavBar from "./components/navbar/Navbar-Component";
 import Footer from "./components/footer/Footer-Component";
 import HomePage from "./home";
 import { useMediaQuery } from "react-responsive";
+import Head from 'next/head'
 
 export default function Home() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -10,6 +11,12 @@ export default function Home() {
   });
   return (
     <>
+    <div className="container">
+      <Head>
+        <title>Devakrut Oils</title>
+        <link rel="icon" href="/main_logo.svg" />
+      </Head>
+      </div>
       <div id="page-wrap">
         {isDesktopOrLaptop && <NavBar />}
         {!isDesktopOrLaptop && (
