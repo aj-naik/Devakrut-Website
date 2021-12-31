@@ -1,11 +1,11 @@
 import React from "react";
-import Link from 'next/link';
+import Link from "next/link";
 
 const NavBar = () => (
   <div>
     <header className="navbar">
       <div className="navbar_logo">
-        <Link href="/">
+        <Link href="/" passHref>
           <img
             className="navbar-logo"
             src="img/navbar/logo.svg"
@@ -15,7 +15,7 @@ const NavBar = () => (
       </div>
       <div className="navbar_item">
         {" "}
-        <Link href="/about" passHref> 
+        <Link href="/about" passHref>
           <a className="menu-item-navbar">About</a>
         </Link>
       </div>
@@ -31,12 +31,17 @@ const NavBar = () => (
       </div>
       <div className="navbar_item" passHref>
         {" "}
-        <Link  href="tel:9579611239">
+        <Link href="tel:9579611239">
           <a className="menu-item-navbar">9579611239</a>
         </Link>
       </div>
       <div className="navbar-social-media-logo">
-        <Link href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <Link
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer"
+          passHref
+        >
           <img
             src="/img/navbar/instagram.svg"
             alt="Insta"
@@ -45,7 +50,12 @@ const NavBar = () => (
         </Link>
       </div>
       <div className="navbar-social-media-logo">
-        <Link href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+        <Link
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noreferrer"
+          passHref
+        >
           <img
             src="/img/navbar/facebook.svg"
             alt="Fb"

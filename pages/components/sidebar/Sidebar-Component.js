@@ -60,16 +60,17 @@ export default class Sidebar extends Component {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
+                passHref
               >
                 <img src="/img/sidebar/instagram.svg" alt="instagram" />
               </Link>
             </div>
-
-            <div className="menu-item-icon">
+            <div className="menu-item-icon" >
               <Link
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noreferrer"
+                passHref
               >
                 <img src="/img/sidebar/facebook.svg" alt="facebook" />
               </Link>
