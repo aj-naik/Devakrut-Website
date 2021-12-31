@@ -5,6 +5,8 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import SideBar from "./components/sidebar/Sidebar-Component";
 import NavBar from "./components/navbar/Navbar-Component";
 import Footer from "./components/footer/Footer-Component";
+import Head from 'next/head'
+
 
 export default function AboutPage() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -12,6 +14,12 @@ export default function AboutPage() {
   });
   return (
     <>
+      <div className="container">
+        <Head>
+          <title>Devakrut Oils</title>
+          <link rel="icon" href="/main_logo.svg" />
+        </Head>
+      </div>
       <div id="page-wrap">
         {isDesktopOrLaptop && <NavBar />}
         {!isDesktopOrLaptop && (
@@ -49,12 +57,12 @@ export default function AboutPage() {
             animationOut=""
             animationInDuration={1800}
           >
-
             <div className="text-container" id="text-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-              quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
-              viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
-              Eget a pellentesque ut urna proin adipiscing ut.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              eget quisque volutpat id molestie id non morbi lorem. Augue sit
+              elit augue viverra est. A etiam mi purus arcu felis ultrices
+              praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
+              ut.
             </div>
 
             <div className="box" id="box1">
@@ -66,10 +74,11 @@ export default function AboutPage() {
               />
 
               <div className="text-container" id="text-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-                quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
-                viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
-                Eget a pellentesque ut urna proin adipiscing ut.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget quisque volutpat id molestie id non morbi lorem. Augue sit
+                elit augue viverra est. A etiam mi purus arcu felis ultrices
+                praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
+                ut.
               </div>
             </div>
 
@@ -95,10 +104,11 @@ export default function AboutPage() {
               />
 
               <div className="text-container" id="text-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-                quisque volutpat id molestie id non morbi lorem. Augue sit elit augue
-                viverra est. A etiam mi purus arcu felis ultrices praesent tincidunt.
-                Eget a pellentesque ut urna proin adipiscing ut.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget quisque volutpat id molestie id non morbi lorem. Augue sit
+                elit augue viverra est. A etiam mi purus arcu felis ultrices
+                praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
+                ut.
               </div>
             </div>
 
@@ -112,18 +122,36 @@ export default function AboutPage() {
               <div className="certification-text">Certified By</div>
 
               <div className="certification-img">
-                <img src="img/about/certified-1.svg" alt="img1" id="img-1" className="img-cert"></img>
-                <img src="img/about/certified-2.svg" alt="img2" id="img-2" className="img-cert"></img>
-                <img src="img/about/certified-3.svg" alt="img3" id="img-3" className="img-cert"></img>
-                <img src="img/about/certified-4.svg" alt="img4" id="img-4" className="img-cert"></img>
+                <img
+                  src="img/about/certified-1.svg"
+                  alt="img1"
+                  id="img-1"
+                  className="img-cert"
+                ></img>
+                <img
+                  src="img/about/certified-2.svg"
+                  alt="img2"
+                  id="img-2"
+                  className="img-cert"
+                ></img>
+                <img
+                  src="img/about/certified-3.svg"
+                  alt="img3"
+                  id="img-3"
+                  className="img-cert"
+                ></img>
+                <img
+                  src="img/about/certified-4.svg"
+                  alt="img4"
+                  id="img-4"
+                  className="img-cert"
+                ></img>
               </div>
             </div>
           </AnimatedOnScroll>
         </div>
-
       </div>
       <Footer />
-
     </>
   );
 }

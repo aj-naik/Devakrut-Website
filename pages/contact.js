@@ -3,12 +3,20 @@ import SideBar from "./components/sidebar/Sidebar-Component";
 import NavBar from "./components/navbar/Navbar-Component";
 import Footer from "./components/footer/Footer-Component";
 import { useMediaQuery } from "react-responsive";
+import Head from 'next/head'
+
 export default function ContactPage() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 768px)",
   });
   return (
     <>
+      <div className="container">
+        <Head>
+          <title>Devakrut Oils</title>
+          <link rel="icon" href="/main_logo.svg" />
+        </Head>
+      </div>
 
       <div id="page-wrap">
         {isDesktopOrLaptop && <NavBar />}
@@ -24,7 +32,6 @@ export default function ContactPage() {
         )}
 
         <div className="main-contact-page">
-
           <img
             className="ellipse-container"
             id="ellipse"
@@ -64,7 +71,11 @@ export default function ContactPage() {
                   <input type="text" className="data"></input>
                 </div>
                 <div className="form-component">
-                  <label htmlFor="Message" className="label-name" id="text-area">
+                  <label
+                    htmlFor="Message"
+                    className="label-name"
+                    id="text-area"
+                  >
                     Message
                   </label>
                   <textarea type="text" className="data-2"></textarea>
@@ -111,7 +122,10 @@ export default function ContactPage() {
                   </a>
                 </span>
                 <span className="footer-details ts-0">
-                  <a className="details-black" href="mailto://info@devakrut.com">
+                  <a
+                    className="details-black"
+                    href="mailto://info@devakrut.com"
+                  >
                     <img
                       src="/img/footer/gmail.svg"
                       alt="gmail"
@@ -135,10 +149,8 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-
       </div>
       <Footer />
     </>
-
   );
 }
