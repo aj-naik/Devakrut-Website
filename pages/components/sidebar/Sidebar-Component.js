@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { bubble as Menu } from "react-burger-menu";
-//import styles from "../../../styles/Sidebar.module.css";
 import Link from 'next/link';
 
 export default class Sidebar extends Component {
