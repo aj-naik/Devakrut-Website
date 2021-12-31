@@ -1,2 +1,2 @@
 # Devakrut website
-Static website created using react js
+SPA website created using NEXTJS for Server side rendering.
