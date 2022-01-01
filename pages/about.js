@@ -1,37 +1,11 @@
 import React from "react";
 import CarouselComponent from "./components/carousel/Carousel-Component";
-import { useMediaQuery } from "react-responsive";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
-import SideBar from "./components/sidebar/Sidebar-Component";
-import NavBar from "./components/navbar/Navbar-Component";
-import Footer from "./components/footer/Footer-Component";
-import Head from 'next/head'
-
 
 export default function AboutPage() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 768px)",
-  });
   return (
     <>
-      <div className="container">
-        <Head>
-          <title>Devakrut Oils</title>
-          <link rel="icon" href="/main_logo.svg" />
-        </Head>
-      </div>
       <div id="page-wrap">
-        {isDesktopOrLaptop && <NavBar />}
-        {!isDesktopOrLaptop && (
-          <SideBar
-            pageWrapId={"page-wrap"}
-            outerContainerId={"App"}
-            customBurgerIcon={
-              <img src="img/menu/hamburger-menu.svg" alt="menu" />
-            }
-            width={"50%"}
-          />
-        )}
         <div className="about-page">
           <AnimatedOnScroll
             animationIn="fadeIn"
@@ -114,8 +88,12 @@ export default function AboutPage() {
 
             <div className="testimonial">
               <div className="testimonial-text">Testimonials</div>
-              {isDesktopOrLaptop && <CarouselComponent slidePercentage={30} />}
-              {!isDesktopOrLaptop && <CarouselComponent slidePercentage={45} />}
+              <div className="desktop">
+                <CarouselComponent slidePercentage={30} />
+              </div>
+              <div className="mobile">
+                <CarouselComponent slidePercentage={30} />
+              </div>
             </div>
 
             <div className="certification">
@@ -151,7 +129,6 @@ export default function AboutPage() {
           </AnimatedOnScroll>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

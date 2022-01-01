@@ -5,7 +5,7 @@ const NavBar = () => (
   <div>
     <header className="navbar">
       <div className="navbar_logo">
-        <Link href="/" passHref>
+        <Link href="/" passHref={true}>
           <img
             className="navbar-logo"
             src="img/navbar/logo.svg"
@@ -15,21 +15,21 @@ const NavBar = () => (
       </div>
       <div className="navbar_item">
         {" "}
-        <Link href="/about" passHref>
+        <Link href="/about" passHref={true}>
           <a className="menu-item-navbar">About</a>
         </Link>
       </div>
-      <div className="navbar_item" passHref>
+      <div className="navbar_item" passHref={true}>
         <Link href="/product" className="menu-item-navbar">
           <a className="menu-item-navbar">Product</a>
         </Link>
       </div>
-      <div className="navbar_item" passHref>
+      <div className="navbar_item" passHref={true}>
         <Link href="/contact" className="menu-item-navbar">
           <a className="menu-item-navbar">Contact</a>
         </Link>
       </div>
-      <div className="navbar_item" passHref>
+      <div className="navbar_item" passHref={true}>
         {" "}
         <Link href="tel:9579611239">
           <a className="menu-item-navbar">9579611239</a>
@@ -40,7 +40,7 @@ const NavBar = () => (
           href="https://www.instagram.com/"
           target="_blank"
           rel="noreferrer"
-          passHref
+          passHref={true}
         >
           <img
             src="/img/navbar/instagram.svg"
@@ -54,7 +54,7 @@ const NavBar = () => (
           href="https://www.facebook.com/"
           target="_blank"
           rel="noreferrer"
-          passHref
+          passHref={true}
         >
           <img
             src="/img/navbar/facebook.svg"

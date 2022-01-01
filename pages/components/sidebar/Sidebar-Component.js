@@ -33,23 +33,23 @@ export default class Sidebar extends Component {
             <img src="img/menu/hamburger-menu.svg" alt="menu" />
           }
           width={"50%"}>
-          <Link href="/" passHref>
+          <Link href="/" passHref={true}>
             <a className="menu-item" onClick={() => this.closeMenu()}>Home</a>
           </Link>
 
-          <Link href="/about" passHref>
+          <Link href="/about" passHref={true}>
             <a className="menu-item" onClick={() => this.closeMenu()}>About</a>
           </Link>
 
-          <Link href="/product" passHref>
+          <Link href="/product" passHref={true}>
             <a className="menu-item" onClick={() => this.closeMenu()}>Product</a>
           </Link>
 
-          <Link href="/contact" passHref>
+          <Link href="/contact" passHref={true}>
             <a className="menu-item" onClick={() => this.closeMenu()}>Contact</a>
           </Link>
 
-          <Link href="tel:9579611239" passHref>
+          <Link href="tel:9579611239" passHref={true}>
             <a className="contact-no" onClick={() => this.closeMenu()}>9579611239</a>
           </Link>
 
@@ -59,7 +59,7 @@ export default class Sidebar extends Component {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
-                passHref
+                passHref={true}
               >
                 <img src="/img/sidebar/instagram.svg" alt="instagram" />
               </Link>
@@ -69,7 +69,7 @@ export default class Sidebar extends Component {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noreferrer"
-                passHref
+                passHref={true}
               >
                 <img src="/img/sidebar/facebook.svg" alt="facebook" />
               </Link>

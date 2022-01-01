@@ -1,37 +1,12 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
-import SideBar from "./components/sidebar/Sidebar-Component";
-import NavBar from "./components/navbar/Navbar-Component";
-import Footer from "./components/footer/Footer-Component";
-import { useMediaQuery } from "react-responsive";
-import Head from 'next/head'
 
 export default function ProductPage() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 768px)",
-  });
+
   return (
     <>
-      <div className="container">
-        <Head>
-          <title>Devakrut Oils</title>
-          <link rel="icon" href="/main_logo.svg" />
-        </Head>
-      </div>
-
       <div id="page-wrap">
-        {isDesktopOrLaptop && <NavBar />}
-        {!isDesktopOrLaptop && (
-          <SideBar
-            pageWrapId={"page-wrap"}
-            outerContainerId={"App"}
-            customBurgerIcon={
-              <img src="img/menu/hamburger-menu.svg" alt="menu" />
-            }
-            width={"50%"}
-          />
-        )}
         <div className="main-product-page">
           <Carousel
             showThumbs={false}
@@ -587,7 +562,6 @@ export default function ProductPage() {
           </Carousel>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

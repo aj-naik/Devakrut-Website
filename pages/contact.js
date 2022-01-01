@@ -1,9 +1,18 @@
 import React from "react";
-import SideBar from "./components/sidebar/Sidebar-Component";
-import NavBar from "./components/navbar/Navbar-Component";
-import Footer from "./components/footer/Footer-Component";
+import Image from "next/image";
+
+import elipse6 from "../public/img/contactpage/ellipse6.svg";
+import elipse7 from "../public/img/contactpage/ellipse7.svg";
+
+import img1 from "../public/img/contactpage/img1.svg";
+import img2 from "../public/img/contactpage/img2.svg";
+import img3 from "../public/img/contactpage/img3.svg";
+
+import pin from "../public/img/footer/pin.svg";
+import gmail from "../public/img/footer/gmail.svg";
+import phone from "../public/img/contactpage/contact-vector.svg";
+
 import { useMediaQuery } from "react-responsive";
-import Head from 'next/head'
 
 export default function ContactPage() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -11,39 +20,14 @@ export default function ContactPage() {
   });
   return (
     <>
-      <div className="container">
-        <Head>
-          <title>Devakrut Oils</title>
-          <link rel="icon" href="/main_logo.svg" />
-        </Head>
-      </div>
-
       <div id="page-wrap">
-        {isDesktopOrLaptop && <NavBar />}
-        {!isDesktopOrLaptop && (
-          <SideBar
-            pageWrapId={"page-wrap"}
-            outerContainerId={"App"}
-            customBurgerIcon={
-              <img src="img/menu/hamburger-menu.svg" alt="menu" />
-            }
-            width={"50%"}
-          />
-        )}
-
         <div className="main-contact-page">
-          <img
-            className="ellipse-container"
-            id="ellipse"
-            src="img/contactpage/ellipse6.svg"
-            alt="ellipse"
-          />
-          <img
-            className="ellipse-container-desk"
-            id="ellipse-desk"
-            src="img/contactpage/ellipse7.svg"
-            alt="ellipse desk"
-          />
+          <div className="ellipse-container">
+            <Image id="ellipse" src={elipse6} alt="ellipse" />
+          </div>
+          <div className="ellipse-container-desk">
+            <Image id="ellipse-desk" src={elipse7} alt="ellipse desk" />
+          </div>
 
           <div className="container">
             <div className="contact-box">
@@ -87,23 +71,19 @@ export default function ContactPage() {
             </div>
             <div className="right-content">
               <div className="contact-image-container">
-                <img
+                <Image
                   className="image-contact"
                   id="image-contact"
-                  src="img/contactpage/img1.svg"
+                  src={img1}
                   alt="store-1"
                 />
                 <div className="image-row2">
-                  <img
+                  <Image
                     className="image-contactrow-1"
-                    src="img/contactpage/img2.svg"
+                    src={img2}
                     alt="store-2"
                   />
-                  <img
-                    className="image-contactrow-2"
-                    src="img/contactpage/img3.svg"
-                    alt="3"
-                  />
+                  <Image className="image-contactrow-2" src={img3} alt="3" />
                 </div>
               </div>
               <div className="footer-content contact-details">
@@ -112,11 +92,9 @@ export default function ContactPage() {
                     className="details-black"
                     href="https://goo.gl/maps/rNA2nxyHudL4E9rF7"
                   >
-                    <img
-                      src="/img/footer/pin.svg"
-                      alt="Map"
-                      className="icon"
-                    ></img>
+                    <div className="icon">
+                      <Image src={pin} alt="Map"></Image>
+                    </div>
                     Shop No 4, Sagar Sanidhya Court Road, Alibaug-Akshi Ferry,
                     Alibag, Maharashtra 402201
                   </a>
@@ -126,22 +104,17 @@ export default function ContactPage() {
                     className="details-black"
                     href="mailto://info@devakrut.com"
                   >
-                    <img
-                      src="/img/footer/gmail.svg"
-                      alt="gmail"
-                      className="icon"
-                    ></img>
+                    <div className="icon">
+                      <Image src={gmail} alt="gmail"></Image>
+                    </div>
                     www.devakrut.com | info@devakrut.com
                   </a>
                 </span>
                 <span className="footer-details ts-0">
                   <a className="details-black" href="tel://9579611239">
-                    <img
-                      src="/img/contactpage/contact-vector.svg"
-                      alt="phone"
-                      className="icon"
-                      id="contact-phoneicon"
-                    ></img>
+                    <div className="icon" id="contact-phoneicon">
+                      <Image src={phone} alt="phone"></Image>
+                    </div>
                     <div className="details-text-black">9579611239</div>
                   </a>
                 </span>
@@ -150,7 +123,6 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
