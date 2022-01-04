@@ -12,12 +12,8 @@ import pin from "../public/img/footer/pin.svg";
 import gmail from "../public/img/footer/gmail.svg";
 import phone from "../public/img/contactpage/contact-vector.svg";
 
-import { useMediaQuery } from "react-responsive";
-
 export default function ContactPage() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 768px)",
-  });
+
   return (
     <>
       <div id="page-wrap">

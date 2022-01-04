@@ -197,17 +197,18 @@ body {
 }
 
 .process-thread {
-  margin-top: 24%;
+  margin-top: 20vw;
   margin-left: 6%;
   width: 89vw;
 }
 .process_title {
-  margin-top: -135%;
+  margin-top: -145vw;
   margin-left: 6%;
   width: 42vw;
 }
+
 .process_1 {
-  margin-top: 28%;
+  margin-top: 22%;
   margin-left: 4%;
   width: 35vw;
 }
@@ -337,13 +338,13 @@ body {
     margin-top: -125%;
   }
   .process-thread {
-    margin-top: -19%;
+    margin-top: -18%;
     margin-left: 9%;
     width: 71.5vw;
   }
   .process_title {
-    margin-top: -55%;
-    margin-left: 0%;
+    margin-top: -58vw;
+    margin-left: -8vw;
   }
   .process_1 {
     margin-top: 5%;
@@ -1284,6 +1285,12 @@ body {
 }
 .navbar-logo {
   width: 45%;
+}
+@media screen and (max-width: 1024px) {
+  .menu-item-navbar {
+    font-size: 22px;
+  }
+
 }
 /*#endregion*/
 

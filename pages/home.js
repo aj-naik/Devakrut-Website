@@ -48,17 +48,22 @@ export default function HomePage() {
         </div>
       </div>
       <div className="process-section mobile">
-        <div className="process-thread mobile formatter">
-          <Image src={thread_mobile} alt="process" />
+        <img
+          src="/img/homepage/thread_mobile.svg"
+          alt="process"
+          className="process-thread mobile formatter"
+        />
+
+        <div className="formatter fade-in process_title ">
+          <Image src={process_title_home} alt="process title" />
         </div>
       </div>
       <div className="process-section">
         <div className="process-thread desktop formatter">
           <Image src={thread_desk} alt="process" />
-        </div>
-
-        <div className="formatter fade-in process_title ">
-          <Image src={process_title_home} alt="process title" />
+          <div className="formatter fade-in process_title ">
+            <Image src={process_title_home} alt="process title" />
+          </div>
         </div>
 
         <div className="process_1 fade-in-left formatter">
@@ -76,13 +81,11 @@ export default function HomePage() {
         <div className="process_4 fade-in-right formatter">
           <Image src={process_4_image} alt="process4" />
         </div>
-
       </div>
       <div className="benefits-section">
-
-          <div className="benefits-title-home fade-in-right formatter">
-            <Image src={benefits_title_home} alt="benefits title" />
-          </div>
+        <div className="benefits-title-home fade-in-right formatter">
+          <Image src={benefits_title_home} alt="benefits title" />
+        </div>
         <AnimatedOnScroll
           animationIn="fadeInLeft"
           animationOut=""
