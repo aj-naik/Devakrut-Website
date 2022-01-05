@@ -1,25 +1,4 @@
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
-import Image from "next/image";
-
-import bottleimage from "../public/img/homepage/bottles_desk.svg";
-import title_image from "../public/img/homepage/devakrut_title_desk.svg";
-import groundnut_image from "../public/img/homepage/groundnut_desk.svg";
-import sunflower_image from "../public/img/homepage/sunflower_desk.svg";
-import coconut_image from "../public/img/homepage/coconut_desk.svg";
-import mustard_flower_image from "../public/img/homepage/mustard_flower_desk.svg";
-
-import thread_mobile from "../public/img/homepage/thread_mobile.svg";
-import thread_desk from "../public/img/homepage/thread_desk.svg";
-import process_title_home from "../public/img/homepage/process_title_home.svg";
-import process_1_image from "../public/img/homepage/process_1_home.svg";
-import process_2_image from "../public/img/homepage/process_2_home.svg";
-import process_3_image from "../public/img/homepage/process_3_home.svg";
-import process_4_image from "../public/img/homepage/process_4_home.svg";
-
-import benefits_title_home from "../public/img/homepage/benefits_title_home.svg";
-import benefits_left from "../public/img/homepage/benefits_left.svg";
-import benefits_right from "../public/img/homepage/benefits_right.svg";
-import benefits_bottles from "../public/img/homepage/benefits_bottles.svg";
 
 export default function HomePage() {
   return (
@@ -28,88 +7,116 @@ export default function HomePage() {
       <span className="l-y-box mobile"></span>
       <div className="main-image-section">
         <span className="y-cicrle"></span>
-        <div className="bottles-desk-home scale-up-center formatter">
-          <Image src={bottleimage} alt="bottle-desk" />
-        </div>
-        <div className="title-main fade-in formatter">
-          <Image src={title_image} alt="title-desk" />
-        </div>
-        <div className="nuts_home fade-in-left formatter">
-          <Image src={groundnut_image} alt="nuts-desk" />
-        </div>
-        <div className="sunflower_home fade-in-bl formatter">
-          <Image src={sunflower_image} alt="suns-desk" />
-        </div>
-        <div className="coconut_home fade-in-br formatter">
-          <Image src={coconut_image} alt="coconut-desk" />
-        </div>
-        <div className="mustard_flower fade-in-right formatter">
-          <Image src={mustard_flower_image} alt="mustard-desk" />
-        </div>
+        <img
+          className="bottles-desk-home scale-up-center formatter"
+          src="/img/homepage/bottles_desk.svg"
+          alt="bottle-desk"
+        />
+        <img
+          className="title-main fade-in formatter"
+          src="/img/homepage/devakrut_title_desk.svg"
+          alt="title-desk"
+        />
+        <img
+          className="nuts_home fade-in-left formatter"
+          src="/img/homepage/groundnut_desk.svg"
+          alt="nuts-desk"
+        />
+        <img
+          className="sunflower_home fade-in-bl formatter"
+          src="/img/homepage/sunflower_desk.svg"
+          alt="suns-desk"
+        />
+        <img
+          className="coconut_home fade-in-br formatter"
+          src="/img/homepage/coconut_desk.svg"
+          alt="coconut-desk"
+        />
+        <img
+          className="mustard_flower fade-in-right formatter"
+          src="/img/homepage/mustard_flower_desk.svg"
+          alt="mustard-desk"
+        />
       </div>
       <div className="process-section mobile">
-        <div className="process-thread mobile formatter">
-          <Image src={thread_mobile} alt="process" />
-        </div>
+        <img
+          className="process-thread mobile formatter"
+          src="/img/homepage/thread_mobile.svg"
+          alt="process"
+        />
       </div>
       <div className="process-section">
-        <div className="process-thread desktop formatter">
-          <Image src={thread_desk} alt="process" />
-        </div>
-
-        <div className="formatter fade-in process_title ">
-          <Image src={process_title_home} alt="process title" />
-        </div>
-
-        <div className="process_1 fade-in-left formatter">
-          <Image src={process_1_image} alt="process1" />
-        </div>
-
-        <div className="process_2 fade-in-right formatter">
-          <Image src={process_2_image} alt="process2" />
-        </div>
-
-        <div className="process_3 fade-in-left formatter">
-          <Image src={process_3_image} alt="process3" />
-        </div>
-
-        <div className="process_4 fade-in-right formatter">
-          <Image src={process_4_image} alt="process4" />
-        </div>
-
+        <img
+          className="process-thread desktop formatter"
+          src="/img/homepage/thread_desk.svg"
+          alt="process"
+        />
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration={1200}>
+          <img
+            className="process_title formatter"
+            src="/img/homepage/process_title_home.svg"
+            alt="process title"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
+          <img
+            className="process_1 formatter"
+            src="/img/homepage/process_1_home.svg"
+            alt="process1"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
+          <img
+            className="process_2 formatter"
+            src="/img/homepage/process_2_home.svg"
+            alt="process2"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
+          <img
+            className="process_3 formatter"
+            src="/img/homepage/process_3_home.svg"
+            alt="process3"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
+          <img
+            className="process_4 formatter"
+            src="/img/homepage/process_4_home.svg"
+            alt="process4"
+          />
+        </AnimatedOnScroll>
       </div>
       <div className="benefits-section">
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
+          <img
+            className="benefits-title-home formatter"
+            src="/img/homepage/benefits_title_home.svg"
+            alt="benefits title"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1200}>
+          <img
+            className="benefits-left formatter"
+            src="/img/homepage/benefits_left.svg"
+            alt="benefits_left"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeIn" animationOut="" animationInDuration={1200}>
+          <img
+            className="benefits-bottles scale-up-center-2 formatter"
+            src="/img/homepage/benefits_bottles.svg"
+            alt="benefits_left"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1200}>
+          <img
+            className="benefits-right formatter"
+            src="/img/homepage/benefits_right.svg"
+            alt="benefits_right"
+          />
+        </AnimatedOnScroll>
 
-          <div className="benefits-title-home fade-in-right formatter">
-            <Image src={benefits_title_home} alt="benefits title" />
-          </div>
-        <AnimatedOnScroll
-          animationIn="fadeInLeft"
-          animationOut=""
-          animationInDuration={1200}
-        >
-          <div className="benefits-left formatter">
-            <Image src={benefits_left} alt="benefits_left" />
-          </div>
-        </AnimatedOnScroll>
-        <AnimatedOnScroll
-          animationIn="fadeIn"
-          animationOut=""
-          animationInDuration={1200}
-        >
-          <div className="benefits-bottles formatter">
-            <Image src={benefits_bottles} alt="benefits_left" />
-          </div>
-        </AnimatedOnScroll>
-        <AnimatedOnScroll
-          animationIn="fadeInRight"
-          animationOut=""
-          animationInDuration={1200}
-        >
-          <div className="benefits-right formatter">
-            <Image src={benefits_right} alt="benefits_right" />
-          </div>
-        </AnimatedOnScroll>
       </div>
     </>
   );

@@ -197,17 +197,18 @@ body {
 }
 
 .process-thread {
-  margin-top: 24%;
+  margin-top: 20vw;
   margin-left: 6%;
   width: 89vw;
 }
 .process_title {
-  margin-top: -135%;
+  margin-top: -145vw;
   margin-left: 6%;
   width: 42vw;
 }
+
 .process_1 {
-  margin-top: 28%;
+  margin-top: 22%;
   margin-left: 4%;
   width: 35vw;
 }
@@ -337,13 +338,13 @@ body {
     margin-top: -125%;
   }
   .process-thread {
-    margin-top: -19%;
+    margin-top: -18%;
     margin-left: 9%;
     width: 71.5vw;
   }
   .process_title {
-    margin-top: -55%;
-    margin-left: 0%;
+    margin-top: -58vw;
+    margin-left: 6%;
   }
   .process_1 {
     margin-top: 5%;
@@ -376,15 +377,30 @@ body {
     margin-left: 6%;
   }
   .benefits-right {
-    width: 39.6vw;
-    margin-top: -50%;
+    width: 39.5vw;
+    margin-top: -53%;
     margin-left: 56%;
     margin-bottom: 15%;
   }
+  /* @media screen and (min-width: 1600px) {
+    .benefits-right {
+      margin-top: -48%;
+    }
+  }
+  @media screen and (min-width: 1850px) and (max-width: 2100px) {
+    .benefits-right {
+      margin-top: -35%;
+    }
+  }
+  @media screen and (min-width: 2100px)  {
+    .benefits-right {
+      margin-top: -30%;
+    }
+  } */
   .benefits-bottles {
-    width: 33.7vw;
-    margin-top: -45%;
-    margin-left: 26%;
+    width: 33vw;
+    margin-top: -40%;
+    margin-left: 30%;
   }
 }
 .scale-up-center {
@@ -916,13 +932,6 @@ body {
   box-sizing: border-box;
 }
 
-.submit-button {
-  width: 100%;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
 .data-2 {
   border: 1px dashed #b7b7b7;
   /* box-sizing: border-box; */
@@ -949,7 +958,10 @@ body {
   font-size: 16px;
   line-height: 20px;
   height: 30px;
-  width: 108px;
+  width: 50%;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .main-contact-page {
@@ -1029,7 +1041,6 @@ body {
   }
 
   .submit-button {
-    width: 50px;
     height: 45px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -1284,6 +1295,12 @@ body {
 }
 .navbar-logo {
   width: 45%;
+}
+@media screen and (max-width: 1024px) {
+  .menu-item-navbar {
+    font-size: 22px;
+  }
+
 }
 /*#endregion*/
 
