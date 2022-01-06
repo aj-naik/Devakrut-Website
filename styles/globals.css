@@ -930,7 +930,6 @@ body {
   display: inline-block;
   box-sizing: border-box;
   border: 1px dashed #b7b7b7;
-  /* box-sizing: border-box; */
   border-radius: 10px;
   margin-top: 10px;
   resize: none;
