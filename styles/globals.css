@@ -925,14 +925,10 @@ body {
 
 .data-2 {
   padding-bottom: 12px;
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
-}
-
-.data-2 {
   border: 1px dashed #b7b7b7;
   /* box-sizing: border-box; */
   border-radius: 10px;
