@@ -33,14 +33,12 @@ function MyApp({ Component, pageProps, time }) {
     </>
   );
 }
-export async function getServerSideProps({ req, res }) {
+export async function getServerSideProps({ query, res }) {
   res.setHeader(
-    'Cache-Control',
-    'public, s-maxage=10, stale-while-revalidate=59'
-  )
+    "Cache-Control",
+    "public, s-maxage=43200, stale-while-revalidate=60"
+  );
   console.log(new Date().toISOString());
-
-  return {
-  }
+  return {};
 }
 export default MyApp
