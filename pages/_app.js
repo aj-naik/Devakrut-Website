@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps, time }) {
 export async function getServerSideProps({ req, res }) {
   res.setHeader(
     'Cache-Control',
-    'public, s-maxage=10, stale-while-revalidate=59'
+    'public, s-maxage=43200, stale-while-revalidate=60'
   )
   console.log(new Date().toISOString());
 
