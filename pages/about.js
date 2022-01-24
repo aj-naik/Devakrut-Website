@@ -33,9 +33,9 @@ export default function AboutPage() {
           >
             <div className="text-container" id="text-1">
             In this world of chemical toxicity with respect to a lot of products consumed by the citizens, where public health is side-eyed. 
-            It is through this realization that we wanted to bring health and wellness back on everyone's kitchen table. 
-            One of the most important products used by the public is 'oil', basic ingredient that every household requires! 
-             This thought and efforts to bring the change is exactly how 'Devakrut Natural Oils' was created. 
+            It is through this realization that we wanted to bring health and wellness back on everyone&aposs kitchen table. 
+            One of the most important products used by the public is &aposoil&apos, basic ingredient that every household requires! 
+             This thought and efforts to bring the change is exactly how &aposDevakrut Natural Oils&apos was created. 
 
 
             </div>
