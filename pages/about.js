@@ -32,11 +32,12 @@ export default function AboutPage() {
             animationInDuration={1800}
           >
             <div className="text-container" id="text-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              eget quisque volutpat id molestie id non morbi lorem. Augue sit
-              elit augue viverra est. A etiam mi purus arcu felis ultrices
-              praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
-              ut.
+            In this world of chemical toxicity with respect to a lot of products consumed by the citizens, where public health is side-eyed. 
+            It is through this realization that we wanted to bring health and wellness back on everyone’s kitchen table. 
+            One of the most important products used by the public is ‘oil', basic ingredient that every household requires! 
+             This thought and efforts to bring the change is exactly how ‘Devakrut Natural Oils’ was created. 
+
+
             </div>
 
             <div className="box" id="box1">
@@ -48,11 +49,12 @@ export default function AboutPage() {
               />
 
               <div className="text-container" id="text-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                eget quisque volutpat id molestie id non morbi lorem. Augue sit
-                elit augue viverra est. A etiam mi purus arcu felis ultrices
-                praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
-                ut.
+              Our vision is to provide with unique and overarching products to change the lives and 
+              to do our bit of providing a healthy future to the members of our society. 
+               We at Devakrut are committed to provide our customers with only best quality oil. 
+               We focus on producing 100% natural using best quality grains during the extraction procedure. 
+               Our products are cold pressed, meaning the process uses absolutely no heat which helps retain its virginity, 
+               the natural aroma, essential vital nutrients, and its composition. 
               </div>
             </div>
 
@@ -78,11 +80,8 @@ export default function AboutPage() {
               />
 
               <div className="text-container" id="text-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                eget quisque volutpat id molestie id non morbi lorem. Augue sit
-                elit augue viverra est. A etiam mi purus arcu felis ultrices
-                praesent tincidunt. Eget a pellentesque ut urna proin adipiscing
-                ut.
+              We are committed to hygiene and purity. Our bottles are anti-spilling preventing from any leakage during transport, the bottle design allows for both easy handling and storage. 
+Whatever your cooking style and your taste preference we have tasty and nutritious oil varieties including coconut oil, groundnut oil, sesame oil, safflower oil, sunflower oil, and mustard oil to meet your cooking needs and support your lifestyle. 
               </div>
             </div>
 

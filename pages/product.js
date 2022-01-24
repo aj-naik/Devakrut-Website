@@ -458,10 +458,9 @@ export default function ProductPage() {
                 <div className="title">Wood Pressed Sesame Oil</div>
                 <div className="product-img-container">
                   <img
-                    id="sesame-img"
-                    src="img/product/sesame.png"
-                    alt="sesame"
                     className="product-i"
+                    src="img/product/sesame.svg"
+                    alt="sesame"
                   ></img>
                 </div>
                 <div className="product-content">
