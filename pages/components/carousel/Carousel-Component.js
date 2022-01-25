@@ -10,7 +10,7 @@ export default function CarouselComponent({ slidePercentage }) {
       centerSlidePercentage={slidePercentage}
       showIndicators={false}
       showStatus={false}
-      infiniteLoop={true}
+      infiniteLoop={false}
       interval={7000}
       swipeScrollTolerance={1}
       preventMovementUntilSwipeScrollTolerance={true}
@@ -24,8 +24,7 @@ export default function CarouselComponent({ slidePercentage }) {
           />
           <div className="carousel-text">
             <p className="legend-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              eget quisque volutpat id molestie id non morbi lorem. Augue sit{" "}
+            Raw   material  {" "}
             </p>
           </div>
         </div>
@@ -39,8 +38,7 @@ export default function CarouselComponent({ slidePercentage }) {
           />
           <div className="carousel-text">
             <p className="legend-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              eget quisque volutpat id molestie id non morbi lorem. Augue sit{" "}
+            Seed Crushing  {" "}
             </p>
           </div>
         </div>
@@ -54,8 +52,35 @@ export default function CarouselComponent({ slidePercentage }) {
           />
           <div className="carousel-text">
             <p className="legend-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              eget quisque volutpat id molestie id non morbi lorem. Augue sit{" "}
+            Oil extraction{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="wrapper">
+        <div className="carousel-card">
+          <img
+            src="img/about/banda-v-neck.jpg"
+            className="carousel-image"
+            alt="banda1"
+          />
+          <div className="carousel-text">
+            <p className="legend-text">
+            Oil sedimentation{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="wrapper">
+        <div className="carousel-card">
+          <img
+            src="img/about/banda-v-neck.jpg"
+            className="carousel-image"
+            alt="banda1"
+          />
+          <div className="carousel-text">
+            <p className="legend-text">
+            Bottling & packaging {" "}
             </p>
           </div>
         </div>

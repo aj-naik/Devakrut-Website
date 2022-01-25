@@ -33,9 +33,9 @@ export default function AboutPage() {
           >
             <div className="text-container" id="text-1">
             In this world of chemical toxicity with respect to a lot of products consumed by the citizens, where public health is side-eyed. 
-            It is through this realization that we wanted to bring health and wellness back on everyone&aposs kitchen table. 
-            One of the most important products used by the public is &aposoil&apos, basic ingredient that every household requires! 
-             This thought and efforts to bring the change is exactly how &aposDevakrut Natural Oils&apos was created. 
+            It is through this realization that we wanted to bring health and wellness back on everyone&apos;s kitchen table. 
+            One of the most important products used by the public is &apos;oil&apos;, basic ingredient that every household requires! 
+             This thought and efforts to bring the change is exactly how &apos;Devakrut Natural Oils&apos; was created. 
 
 
             </div>
@@ -86,7 +86,7 @@ Whatever your cooking style and your taste preference we have tasty and nutritio
             </div>
 
             <div className="testimonial">
-              <div className="testimonial-text">Testimonials</div>
+              <div className="testimonial-text">Process</div>
               <div className="desktop">
                 <CarouselComponent slidePercentage={30} />
               </div>
