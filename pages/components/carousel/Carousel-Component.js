@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 export default function CarouselComponent({ slidePercentage }) {
-
   return (
     <Carousel
       showThumbs={false}
@@ -18,70 +17,56 @@ export default function CarouselComponent({ slidePercentage }) {
       <div className="wrapper">
         <div className="carousel-card">
           <img
-            src="img/about/banda-v-neck.jpg"
+            src="img/about/seed_crushing.jpg"
             className="carousel-image"
-            alt="banda1"
+            alt="Seeds"
           />
           <div className="carousel-text">
-            <p className="legend-text">
-            Raw   material  {" "}
-            </p>
+            <p className="legend-text">Raw material </p>
           </div>
         </div>
       </div>
       <div className="wrapper">
         <div className="carousel-card">
           <img
-            src="img/about/banda-v-neck.jpg"
+            src="img/about/seed_crushing.jpg"
             className="carousel-image"
-            alt="banda1"
+            alt="Seeds"
           />
           <div className="carousel-text">
-            <p className="legend-text">
-            Seed Crushing  {" "}
-            </p>
+            <p className="legend-text">Seed Crushing </p>
           </div>
         </div>
       </div>
       <div className="wrapper">
         <div className="carousel-card">
           <img
-            src="img/about/banda-v-neck.jpg"
+            src="img/about/seed_crushing.jpg"
             className="carousel-image"
-            alt="banda1"
+            alt="Oil"
           />
           <div className="carousel-text">
-            <p className="legend-text">
-            Oil extraction{" "}
-            </p>
+            <p className="legend-text">Oil extraction </p>
+          </div>
+        </div>
+      </div>
+      <div className="wrapper">
+        <div className="carousel-card">
+          <img src="img/about/os.jpg" className="carousel-image" alt="Oil" />
+          <div className="carousel-text">
+            <p className="legend-text">Oil sedimentation </p>
           </div>
         </div>
       </div>
       <div className="wrapper">
         <div className="carousel-card">
           <img
-            src="img/about/banda-v-neck.jpg"
+            src="img/about/seed_crushing.jpg"
             className="carousel-image"
-            alt="banda1"
+            alt="Bottle"
           />
           <div className="carousel-text">
-            <p className="legend-text">
-            Oil sedimentation{" "}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="wrapper">
-        <div className="carousel-card">
-          <img
-            src="img/about/banda-v-neck.jpg"
-            className="carousel-image"
-            alt="banda1"
-          />
-          <div className="carousel-text">
-            <p className="legend-text">
-            Bottling & packaging {" "}
-            </p>
+            <p className="legend-text">Bottling & packaging </p>
           </div>
         </div>
       </div>

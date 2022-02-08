@@ -5,15 +5,14 @@ import elipse6 from "../public/img/contactpage/ellipse6.svg";
 import elipse7 from "../public/img/contactpage/ellipse7.svg";
 
 import img1 from "../public/img/contactpage/img1.svg";
-import img2 from "../public/img/contactpage/img2.svg";
-import img3 from "../public/img/contactpage/img3.svg";
+// import img2 from "../public/img/contactpage/img2.svg";
+// import img3 from "../public/img/contactpage/img3.svg";
 
 import pin from "../public/img/footer/pin.svg";
 import gmail from "../public/img/footer/gmail.svg";
 import phone from "../public/img/contactpage/contact-vector.svg";
 
 export default function ContactPage() {
-
   return (
     <>
       <div id="page-wrap">
@@ -73,14 +72,14 @@ export default function ContactPage() {
                   src={img1}
                   alt="store-1"
                 />
-                <div className="image-row2">
+                {/* <div className="image-row2">
                   <Image
                     className="image-contactrow-1"
                     src={img2}
                     alt="store-2"
                   />
                   <Image className="image-contactrow-2" src={img3} alt="3" />
-                </div>
+                </div> */}
               </div>
               <div className="footer-content contact-details">
                 <span className="footer-details ts-0">

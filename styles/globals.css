@@ -1358,7 +1358,6 @@ body {
 /*#endregion*/
 
 /*#region ProductPage*/
-
 .main-product-page {
   background: #fffaea;
 }
@@ -1370,6 +1369,7 @@ body {
 .carousel.carousel-slider .control-arrow:hover {
   background: rgba(0, 0, 0, 0);
 }
+
 .carousel.carousel-slider .control-arrow {
   top: 0;
   color: rgb(0, 0, 0);
@@ -1378,6 +1378,7 @@ body {
   margin-top: 0;
   padding: 2px;
 }
+
 .carousel .control-next.control-arrow:before {
   border-left: 15px solid rgb(255, 255, 255);
 }
@@ -1413,7 +1414,78 @@ body {
   border: 0;
   float: right;
 }
+ @media screen and (max-width: 768px){
+   .product-img-container-d {
+     display: none !important;
+   }
+ }
 
+@media screen and (min-width: 768px) {
+ .product-img-container{
+   display: none !important;
+ }
+  .main-product-page {
+    background: #fffaea;
+  }
+
+  .product-page {
+    /* padding-top: 20%; */
+    margin-left: 120px;
+
+  }
+
+  .carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    top: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    bottom: 0;
+    margin-top: 0;
+    padding: 2px;
+  }
+
+  .carousel .control-next.control-arrow:before {
+    border-left: 15px solid rgb(255, 255, 255);
+  }
+.title {
+  padding-top: 32px;
+  padding-left: 15px;  
+  padding-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 19px;
+  color: #f4bc2b;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  width: 1000px;
+  margin-right: 0px;
+}
+
+.product-content {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  width: 800px;
+  /* margin-left: 7px; */
+}
+
+.carousel .slide .product-i {
+  width: 50%;
+  vertical-align: top;
+  border: 0;
+  float: right;
+}
+}
 .carousel .slide {
   text-align: left !important;
 }
@@ -1498,7 +1570,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .carousel .slide .product-i {
-    width: 35%;
+    width: 40%;
     vertical-align: top;
     border: 0;
     float: right;
@@ -1519,13 +1591,13 @@ body {
   }
 
   .product-page {
-    padding-top: 0.5%;
+    padding-top: 2.5%;
   }
-  .title {
+  /* .title {
     font-weight: 700;
     font-size: 28px;
     line-height: 37px;
-  }
+  } */
   .benefits-title {
     font-weight: 700;
     font-size: 24px;
@@ -1572,11 +1644,11 @@ body {
   }
   .product-i {
     margin-bottom: -9.5%;
-    width: 30%;
+    width: 100%;
   }
 
-  /* #groundnut {
+  #groundnut {
     padding-bottom: 2%;
-  } */
+  }
 }
 /*#endregion*/
